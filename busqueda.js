@@ -3,50 +3,36 @@ var typeData = {};
 
 // Cargar los datos de los Pokémon y los tipos
 function cargarDatos() {
-    // Cargar datos de Pokémon
+    // Modificar la carga de datos para ser más compatible
     var xhr1 = new XMLHttpRequest();
-    xhr1.open("GET", "pokedata.json", true);
+    xhr1.open("GET", "pokedata.json", false); // Cambiar a síncrono para mejor compatibilidad
     xhr1.onreadystatechange = function() {
         if (xhr1.readyState == 4) {
             if (xhr1.status == 200) {
                 try {
-                    pokedata = JSON.parse(xhr1.responseText);
+                    pokedata = eval('(' + xhr1.responseText + ')'); // Usar eval para mejor compatibilidad
                 } catch(e) {
                     alert("Error al cargar datos de Pokémon");
                 }
-            } else {
-                alert("Error al cargar datos de Pokémon");
             }
         }
     };
-    xhr1.onerror = function() {
-        alert("Error de conexión al cargar datos de Pokémon");
-    };
-    xhr1.send();
+    xhr1.send(null);
     
-    // Cargar datos de tipos
     var xhr2 = new XMLHttpRequest();
-    xhr2.open("GET", "types.json", true);
+    xhr2.open("GET", "types.json", false); // Cambiar a síncrono
     xhr2.onreadystatechange = function() {
         if (xhr2.readyState == 4) {
             if (xhr2.status == 200) {
                 try {
-                    typeData = JSON.parse(xhr2.responseText);
-                    if (document.getElementById("pokeInput").value) {
-                        buscar();
-                    }
+                    typeData = eval('(' + xhr2.responseText + ')'); // Usar eval para mejor compatibilidad
                 } catch(e) {
                     alert("Error al cargar datos de tipos");
                 }
-            } else {
-                alert("Error al cargar datos de tipos");
             }
         }
     };
-    xhr2.onerror = function() {
-        alert("Error de conexión al cargar datos de tipos");
-    };
-    xhr2.send();
+    xhr2.send(null);
 }
 
 function traducirEstadisticas(stat) {
@@ -224,84 +210,93 @@ function resolveElectricAndPsychicTypes(type) {
     return type; // Simplificado el else
 }
 
+// Modificar la función buscar para ser más compatible
 function buscar() {
-    try {
-        var input = document.getElementById("pokeInput").value.trim().toLowerCase();
-        var img = document.getElementById("pokeImg");
-        var info = document.getElementById("pokeInfo");
-        var resultado = document.getElementById("resultado");
-        var pokeName = document.getElementById("pokeName");
-    
-        var pokemon = null;
-    
-        if (!isNaN(input)) {
-            var numero = parseInt(input);
-            for (var i = 0; i < pokedata.length; i++) {
-                if (pokedata[i].id === numero) {
-                    pokemon = pokedata[i];
-                    break;
-                }
-            }
-        } else {
-            for (var i = 0; i < pokedata.length; i++) {
-                if (pokedata[i].nombre.toLowerCase() === input) {
-                    pokemon = pokedata[i];
-                    break;
-                }
-            }
-        }
-    
-        if (pokemon) {
-            var genFolder = determinarGeneracion(pokemon.id);
-            img.src = "sprites/" + genFolder + "/" + pokemon.id + ".png";
-            
-            img.onerror = function() {
-                this.src = "sprites/MissingNo.png";
-            };
-    
-            pokeName.innerHTML = pokemon.id + ". " + pokemon.nombre;
-    
-            var html = "<b>Tipos:</b> ";
-            var tipos = [];
-            for (var i = 0; i < pokemon.tipos.length; i++) {
-                var tipo = pokemon.tipos[i].toLowerCase();
-                tipos.push(tipo);
-                html += '<span class="type-btn ' + tipo + '">' + resolveElectricAndPsychicTypes(pokemon.tipos[i]) + '</span> ';
-            }
-    
-            html += "<br><a id='tablaTiposBtn' href='index.html'>Revisar tabla de tipos</a><br><br>";
-            html += "<b>Estadísticas:</b><br>";
-            var stats = pokemon.stats;
-            for (var stat in stats) {
-                html += traducirEstadisticas(stat) + ": " + stats[stat] + "<br>";
-            }
-    
-            if (pokemon.evolucion.length > 0) {
-                var evo = pokemon.evolucion[0];
-                html += "<br><b>Evoluciona a:</b> " + evo.b + "<br>";
-                html += "<b>Condiciones:</b><br>";
-                for (var j = 0; j < evo.condiciones.length; j++) {
-                    html += "- " + evo.condiciones[j] + "<br>";
-                }
-            } else {
-                html += "<br><b>Sin evoluciones.</b>";
-            }
-    
-            info.innerHTML = html;
-            resultado.style.display = "block";
-            
-            mostrarDetallesTipos(tipos);
-        } else {
-            alert("Pokémon no encontrado.");
-        }
-    } catch(e) {
-        alert("Error al buscar el Pokémon");
+    if (!pokedata || pokedata.length === 0) {
+        alert("Datos no cargados. Por favor, espere.");
         return;
+    }
+
+    var input = document.getElementById("pokeInput");
+    if (!input) return;
+    
+    input = input.value;
+    if (!input) {
+        alert("Por favor ingrese un nombre o número");
+        return;
+    }
+    
+    input = input.toString().trim().toLowerCase();
+    
+    // Optimizar la manipulación del DOM agrupando las referencias
+    var elementos = {
+        img: document.getElementById("pokeImg"),
+        info: document.getElementById("pokeInfo"),
+        resultado: document.getElementById("resultado"),
+        pokeName: document.getElementById("pokeName")
+    };
+    
+    if (!elementos.img || !elementos.info || !elementos.resultado || !elementos.pokeName) return;
+    
+    var pokemon = null;
+    
+    // Optimizar la búsqueda
+    if (!isNaN(input)) {
+        pokemon = pokedata.find(function(p) { return p.id === parseInt(input); });
+    } else {
+        pokemon = pokedata.find(function(p) { return p.nombre.toLowerCase() === input; });
+    }
+    
+    if (pokemon) {
+        var genFolder = determinarGeneracion(pokemon.id);
+        elementos.img.src = "sprites/" + genFolder + "/" + pokemon.id + ".png";
+        
+        elementos.img.onerror = function() {
+            this.src = "sprites/MissingNo.png";
+        };
+    
+        elementos.pokeName.innerHTML = pokemon.id + ". " + pokemon.nombre;
+    
+        // Construir HTML en un solo string para mejor rendimiento
+        var html = ["<b>Tipos:</b> "];
+        var tipos = pokemon.tipos.map(function(tipo) {
+            tipo = tipo.toLowerCase();
+            html.push('<span class="type-btn ' + tipo + '">' + resolveElectricAndPsychicTypes(tipo) + '</span> ');
+            return tipo;
+        });
+    
+        html.push("<br><a id='tablaTiposBtn' href='index.html'>Revisar tabla de tipos</a><br><br>");
+        html.push("<b>Estadísticas:</b><br>");
+        
+        for (var stat in pokemon.stats) {
+            html.push(traducirEstadisticas(stat) + ": " + pokemon.stats[stat] + "<br>");
+        }
+    
+        if (pokemon.evolucion.length > 0) {
+            var evo = pokemon.evolucion[0];
+            html.push("<br><b>Evoluciona a:</b> " + evo.b + "<br>");
+            html.push("<b>Condiciones:</b><br>");
+            evo.condiciones.forEach(function(condicion) {
+                html.push("- " + condicion + "<br>");
+            });
+        } else {
+            html.push("<br><b>Sin evoluciones.</b>");
+        }
+    
+        elementos.info.innerHTML = html.join("");
+        elementos.resultado.style.display = "block";
+        
+        mostrarDetallesTipos(tipos);
+    } else {
+        alert("Pokémon no encontrado.");
     }
 }
 
-if (document.readyState === 'complete' || document.readyState === 'interactive') {
-    cargarDatos();
+// Modificar el evento de carga
+if (window.addEventListener) {
+    window.addEventListener('load', cargarDatos, false);
+} else if (window.attachEvent) {
+    window.attachEvent('onload', cargarDatos);
 } else {
-    document.addEventListener('DOMContentLoaded', cargarDatos);
+    window.onload = cargarDatos;
 }
