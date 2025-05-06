@@ -1,0 +1,285 @@
+{
+  "gen1": {
+    "normal": {
+      "weak": ["lucha"],
+      "immune": ["fantasma"],
+      "note": "Movimientos Normales no afectan a Fantasmas"
+    },
+    "fuego": {
+      "weak": ["agua", "tierra", "roca"],
+      "resist": ["fuego", "planta", "hielo", "bicho"],
+      "strong": ["planta", "hielo", "bicho"],
+      "note": "Los movimientos de tipo hielo hacen daño normal a los Pokémon de tipo fuego."
+    },
+    "agua": {
+      "weak": ["planta", "electrico"],
+      "resist": ["fuego", "agua", "hielo"],
+      "strong": ["fuego", "tierra", "roca"]
+    },
+    "planta": {
+      "weak": ["fuego", "hielo", "veneno", "volador", "bicho"],
+      "resist": ["agua", "planta", "electrico", "tierra"],
+      "strong": ["agua", "tierra", "roca"]
+    },
+    "electrico": {
+      "weak": ["tierra"],
+      "resist": ["electrico", "volador"],
+      "strong": ["agua", "volador"],
+      "immune": ["tierra"]
+    },
+    "hielo": {
+      "weak": ["fuego", "lucha", "roca"],
+      "resist": ["hielo"],
+      "strong": ["planta", "tierra", "volador", "dragon"]
+    },
+    "lucha": {
+      "weak": ["volador", "psiquico"],
+      "resist": ["bicho", "roca"],
+      "strong": ["normal", "hielo", "roca"],
+      "immune": ["fantasma"]
+    },
+    "veneno": {
+      "weak": ["tierra", "psiquico"],
+      "resist": ["planta", "veneno", "bicho"],
+      "strong": ["planta", "bicho"]
+    },
+    "tierra": {
+      "weak": ["agua", "planta", "hielo"],
+      "resist": ["veneno", "roca"],
+      "strong": ["fuego", "electrico", "veneno", "roca"],
+      "immune": ["electrico"]
+    },
+    "volador": {
+      "weak": ["electrico", "hielo", "roca"],
+      "resist": ["planta", "lucha", "bicho"],
+      "strong": ["planta", "lucha", "bicho"],
+      "immune": ["tierra"]
+    },
+    "psiquico": {
+      "weak": ["bicho"],
+      "resist": ["lucha", "psiquico"],
+      "strong": ["lucha", "veneno"]
+    },
+    "bicho": {
+      "weak": ["fuego", "volador", "roca"],
+      "resist": ["planta", "lucha", "tierra"],
+      "strong": ["planta", "psiquico"]
+    },
+    "roca": {
+      "weak": ["agua", "planta", "lucha", "tierra"],
+      "resist": ["normal", "fuego", "veneno", "volador"],
+      "strong": ["fuego", "hielo", "volador", "bicho"]
+    },
+    "fantasma": {
+      "weak": ["fantasma"],
+      "resist": ["veneno", "bicho"],
+      "strong": ["psiquico", "fantasma"],
+      "immune": ["normal", "lucha"]
+    },
+    "dragon": {
+      "weak": ["hielo", "dragon"],
+      "resist": ["fuego", "agua", "planta", "electrico"],
+      "strong": ["dragon"]
+    }
+  },
+  "gen2": {
+    "acero": {
+      "weak": ["fuego", "lucha", "tierra"],
+      "resist": ["normal", "planta", "hielo", "volador", "psiquico", "bicho", "roca", "dragon", "acero", "siniestro", "fantasma"],
+      "immune": ["veneno"],
+      "strong": ["hielo", "roca", "hada"],
+      "note": "El tipo Acero fue introducido en Gen 2 para balancear el tipo Dragón"
+    },
+    "siniestro": {
+      "weak": ["lucha", "bicho"],
+      "resist": ["fantasma", "siniestro"],
+      "strong": ["psiquico", "fantasma"],
+      "immune": ["psiquico"],
+      "note": "Introducido en Gen 2 para balancear el tipo Psíquico"
+    },
+    "normal": {
+      "weak": ["lucha"],
+      "immune": ["fantasma"],
+      "note": "Movimientos Normales no afectan a Fantasmas"
+    },
+    "fuego": {
+      "weak": ["agua", "tierra", "roca"],
+      "resist": ["fuego", "planta", "hielo", "bicho", "acero", "hada"],
+      "strong": ["planta", "hielo", "bicho", "acero"]
+    },
+    "agua": {
+      "weak": ["planta", "electrico"],
+      "resist": ["fuego", "agua", "hielo", "acero"],
+      "strong": ["fuego", "tierra", "roca"]
+    },
+    "planta": {
+      "weak": ["fuego", "hielo", "veneno", "volador", "bicho"],
+      "resist": ["agua", "planta", "electrico", "tierra"],
+      "strong": ["agua", "tierra", "roca"]
+    },
+    "electrico": {
+      "weak": ["tierra"],
+      "resist": ["electrico", "volador", "acero"],
+      "strong": ["agua", "volador"],
+      "immune": ["tierra"]
+    },
+    "hielo": {
+      "weak": ["fuego", "lucha", "roca", "acero"],
+      "resist": ["hielo"],
+      "strong": ["planta", "tierra", "volador", "dragon"]
+    },
+    "lucha": {
+      "weak": ["volador", "psiquico", "hada"],
+      "resist": ["bicho", "roca", "siniestro"],
+      "strong": ["normal", "hielo", "roca", "siniestro", "acero"]
+    },
+    "veneno": {
+      "weak": ["tierra", "psiquico"],
+      "resist": ["planta", "veneno", "bicho", "lucha", "hada"],
+      "strong": ["planta", "hada"],
+      "immune": ["acero"]
+    },
+    "tierra": {
+      "weak": ["agua", "planta", "hielo"],
+      "resist": ["veneno", "roca"],
+      "strong": ["fuego", "electrico", "veneno", "roca", "acero"],
+      "immune": ["electrico"]
+    },
+    "volador": {
+      "weak": ["electrico", "hielo", "roca"],
+      "resist": ["planta", "lucha", "bicho"],
+      "strong": ["planta", "lucha", "bicho"],
+      "immune": ["tierra"]
+    },
+    "psiquico": {
+      "weak": ["bicho", "fantasma", "siniestro"],
+      "resist": ["lucha", "psiquico"],
+      "strong": ["lucha", "veneno"],
+      "immune": ["siniestro"]
+    },
+    "bicho": {
+      "weak": ["fuego", "volador", "roca"],
+      "resist": ["planta", "lucha", "tierra"],
+      "strong": ["planta", "psiquico", "siniestro"]
+    },
+    "roca": {
+      "weak": ["agua", "planta", "lucha", "tierra", "acero"],
+      "resist": ["normal", "fuego", "veneno", "volador"],
+      "strong": ["fuego", "hielo", "volador", "bicho"]
+    },
+    "fantasma": {
+      "weak": ["fantasma", "siniestro"],
+      "resist": ["veneno", "bicho"],
+      "strong": ["psiquico", "fantasma"],
+      "immune": ["normal", "lucha"]
+    },
+    "dragon": {
+      "weak": ["hielo", "dragon", "hada"],
+      "resist": ["fuego", "agua", "planta", "electrico"],
+      "strong": ["dragon"]
+    }
+  },
+  "gen6": {
+    "hada": {
+      "weak": ["veneno", "acero"],
+      "resist": ["lucha", "bicho", "siniestro"],
+      "strong": ["lucha", "dragon", "siniestro"],
+      "immune": ["dragon"],
+      "note": "Introducido en Gen 6 para balancear el tipo Dragón y Siniestro"
+    },
+    "acero": {
+      "weak": ["fuego", "lucha", "tierra"],
+      "resist": ["normal", "planta", "hielo", "volador", "psiquico", "bicho", "roca", "acero", "hada"],
+      "immune": ["veneno"],
+      "strong": ["hielo", "roca", "hada"],
+      "note": "En Gen 6, Acero ya no resiste Siniestro y Fantasma"
+    },
+    "siniestro": {
+      "weak": ["lucha", "bicho", "hada"],
+      "resist": ["fantasma", "siniestro"],
+      "strong": ["psiquico", "fantasma"],
+      "immune": ["psiquico"]
+    },
+    "normal": {
+      "weak": ["lucha"],
+      "immune": ["fantasma"]
+    },
+    "fuego": {
+      "weak": ["agua", "tierra", "roca"],
+      "resist": ["fuego", "planta", "hielo", "bicho", "acero", "hada"],
+      "strong": ["planta", "hielo", "bicho", "acero"]
+    },
+    "agua": {
+      "weak": ["planta", "electrico"],
+      "resist": ["fuego", "agua", "hielo", "acero"],
+      "strong": ["fuego", "tierra", "roca"]
+    },
+    "planta": {
+      "weak": ["fuego", "hielo", "veneno", "volador", "bicho"],
+      "resist": ["agua", "planta", "electrico", "tierra"],
+      "strong": ["agua", "tierra", "roca"]
+    },
+    "electrico": {
+      "weak": ["tierra"],
+      "resist": ["electrico", "volador", "acero"],
+      "strong": ["agua", "volador"],
+      "immune": ["tierra"]
+    },
+    "hielo": {
+      "weak": ["fuego", "lucha", "roca", "acero"],
+      "resist": ["hielo"],
+      "strong": ["planta", "tierra", "volador", "dragon"]
+    },
+    "lucha": {
+      "weak": ["volador", "psiquico", "hada"],
+      "resist": ["bicho", "roca", "siniestro"],
+      "strong": ["normal", "hielo", "roca", "siniestro", "acero"]
+    },
+    "veneno": {
+      "weak": ["tierra", "psiquico"],
+      "resist": ["planta", "veneno", "bicho", "lucha", "hada"],
+      "strong": ["planta", "hada"],
+      "immune": ["acero"]
+    },
+    "tierra": {
+      "weak": ["agua", "planta", "hielo"],
+      "resist": ["veneno", "roca"],
+      "strong": ["fuego", "electrico", "veneno", "roca", "acero"],
+      "immune": ["electrico"]
+    },
+    "volador": {
+      "weak": ["electrico", "hielo", "roca"],
+      "resist": ["planta", "lucha", "bicho"],
+      "strong": ["planta", "lucha", "bicho"],
+      "immune": ["tierra"]
+    },
+    "psiquico": {
+      "weak": ["bicho", "fantasma", "siniestro"],
+      "resist": ["lucha", "psiquico"],
+      "strong": ["lucha", "veneno"],
+      "immune": ["siniestro"]
+    },
+    "bicho": {
+      "weak": ["fuego", "volador", "roca"],
+      "resist": ["planta", "lucha", "tierra"],
+      "strong": ["planta", "psiquico", "siniestro"]
+    },
+    "roca": {
+      "weak": ["agua", "planta", "lucha", "tierra", "acero"],
+      "resist": ["normal", "fuego", "veneno", "volador"],
+      "strong": ["fuego", "hielo", "volador", "bicho"]
+    },
+    "fantasma": {
+      "weak": ["fantasma", "siniestro"],
+      "resist": ["veneno", "bicho"],
+      "strong": ["psiquico", "fantasma"],
+      "immune": ["normal", "lucha"]
+    },
+    "dragon": {
+      "weak": ["hielo", "dragon", "hada"],
+      "resist": ["fuego", "agua", "planta", "electrico"],
+      "strong": ["dragon"],
+      "note": "En Gen 1, los movimientos tipo Dragón hacían daño fijo de 40 PS"
+    }
+  }
+}

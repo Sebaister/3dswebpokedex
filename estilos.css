@@ -1,0 +1,206 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #FFF;
+    margin: 0;
+    padding: 2px;
+    font-size: 12px;
+    -webkit-text-size-adjust: none;
+}
+
+h1 {
+    color: #F00;
+    font-size: 16px;
+    margin: 6px 0;
+    text-align: center;
+}
+
+h2 {
+    color: #FC0;
+    font-size: 14px;
+    margin: 6px 0;
+    text-align: center;
+}
+
+/* Estilos de menú y botones */
+.menu {
+    text-align: center;
+    margin: 8px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 6px 8px;
+    background-color: #E00;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 2px;
+    min-width: 80px;
+}
+
+/* Estilos de tipos y contenido */
+.type-menu {
+    text-align: center;
+    margin: 6px 0;
+}
+
+.type-btn, .type-tag {
+    padding: 4px 6px;
+    border-radius: 12px;
+    font-size: 11px;
+    font-weight: bold;
+    min-width: 70px;
+    text-align: center;
+    margin: 2px;
+    color: white;
+}
+
+.type-btn {
+    border: none;
+}
+
+.content {
+    display: none;
+}
+
+.content:target {
+    display: block;
+}
+
+/* Detalles de tipos */
+.type-detail {
+    border: 1px solid #444;
+    border-radius: 6px;
+    margin: 8px 0;
+    padding: 6px;
+    background-color: #222;
+    display: none;
+}
+
+.type-header {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 4px;
+}
+
+.type-section {
+    margin: 6px 0;
+}
+
+.type-list {
+    margin: 5px 0;
+}
+
+/* Colores de tipos */
+.normal { background-color: #A8A878; }
+.fuego { background-color: #F08030; }
+.agua { background-color: #6890F0; }
+.planta { background-color: #78C850; }
+.electrico { background-color: #F8D030; }
+.hielo { background-color: #98D8D8; }
+.lucha { background-color: #C03028; }
+.veneno { background-color: #A040A0; }
+.tierra { background-color: #E0C068; }
+.volador { background-color: #A890F0; }
+.psiquico { background-color: #F85888; }
+.bicho { background-color: #A8B820; }
+.roca { background-color: #B8A038; }
+.fantasma { background-color: #705898; }
+.dragon { background-color: #7038F8; }
+.siniestro { background-color: #705848; }
+.acero { background-color: #B8B8D0; }
+.hada { background-color: #EE99AC; }
+
+/* Efectividad */
+.weak { background-color: #F44; }
+.resist { background-color: #4C4; }
+.strong { background-color: #26F; }
+.immune { background-color: #999; }
+
+/* Estilos de búsqueda y resultados */
+#search-container {
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #000;
+    border-top: 1px solid #444;
+}
+
+#resultado {
+    padding: 6px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#pokeContainer {
+    margin-bottom: 10px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.nav-button {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+#pokeImg {
+    width: 160px;
+    height: auto;
+}
+
+#pokeName {
+    margin-top: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFF;
+}
+
+#pokeInfo {
+    background: #222;
+    padding: 6px;
+    margin-top: 10px;
+    color: white;
+    border: 1px solid #444;
+    text-align: left;
+    width: 300px;
+    margin: 10px auto;
+}
+
+#tablaTiposBtn {
+    background-color: #444;
+    padding: 5px;
+    color: #FFF;
+    font-size: 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+input, button {
+    font-size: 12px;
+    padding: 3px;
+    width: 80px;
+    margin: 3px;
+}
+
+.note {
+    font-size: 10px;
+    margin: 6px 0;
+    padding: 0 4px;
+    text-align: left;
+    color: #CCC;
+}
