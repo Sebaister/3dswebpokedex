@@ -257,10 +257,10 @@ h2 {
 }
 
 .nav-arrow {
-    width: 16px; /* Tamaño reducido más */
-    height: 16px; /* Tamaño reducido más */
+    width: 24px; /* Tamaño aumentado */
+    height: 24px; /* Tamaño aumentado */
     cursor: pointer;
-    margin: 0 3px; /* Margen reducido más */
+    margin: 0 5px; /* Margen ligeramente aumentado */
 }
 
 #search-container form {
