@@ -4,27 +4,33 @@
     <meta charset="UTF-8">
     <title>Buscar Pokémon</title>
     <meta name="viewport" content="width=320">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <div id="resultado">
+    <div id="resultado" style="display: none;">
         <div id="pokeContainer">
-            <img id="pokeImg" src="" alt="">
+            <img id="pokeImg" src="sprites/MissingNo.png" alt="Pokemon">
             <div id="pokeName"></div>
         </div>
         <div id="pokeInfo">
             <!-- Información del Pokémon se mostrará aquí -->
         </div>
-        <!-- Contenedor para detalles de tipos -->
         <div id="typeDetails" class="type-detail"></div>
     </div>
 
     <div id="search-container">
         <h1>Buscar Pokémon</h1>
-        <input type="text" id="pokeInput">
-        <button onclick="buscar()">Buscar</button>
+        <form onsubmit="buscar(); return false;">
+            <input type="text" id="pokeInput">
+            <input type="submit" value="Buscar">
+        </form>
     </div>
 
+    <script>
+        // Asegurarnos de que los datos se carguen al inicio
+        window.onload = cargarDatos;
+    </script>
     <script src="busqueda.js"></script>
 </body>
 </html>
