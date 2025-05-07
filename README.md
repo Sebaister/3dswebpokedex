@@ -41,6 +41,13 @@ Esta web resuelve ese problema y mejora la experiencia al jugar títulos de Pok�
 
 Este proyecto está en desarrollo constante. Aunque fue creado inicialmente para uso personal, puede servirle a cualquier jugador que también quiera mejorar su experiencia con Pokémon en 3DS.
 
+
+### 💡 Nota personal
+
+No tengo experiencia formal ni conocimientos profundos en desarrollo web. Esta Pokédex fue creada con lo poco que sé
+y con mucho apoyo de herramientas de inteligencia artificial como ChatGPT, que me guiaron paso a paso en el proceso.
+
+
 ### 🙏 Agradecimientos
 
 Gracias especiales a [@aylinzaratef](https://github.com/aylinzaratef) por su ayuda durante el desarrollo de este proyecto.
@@ -85,6 +92,13 @@ This website solves that problem and improves the overall Pokémon experience on
 ### 🚧 Project Status
 
 This project is under ongoing development. Although it was made for personal use, it might be helpful for others looking to enhance their Pokémon experience on the 3DS.
+
+
+### 💡 Personal Note
+
+I have little to no formal knowledge of web development. This Pokédex was created with what little I know and with
+a lot of help from AI tools like ChatGPT, which guided me step-by-step through the process.
+
 
 ### 🙏 Acknowledgments
 
