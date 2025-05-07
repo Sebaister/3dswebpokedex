@@ -214,10 +214,10 @@ h2 {
 .immune { background-color: #999; }
 
 /* Estilos de búsqueda y resultados */
-buscar#search-container {
+#search-container {
     padding: 2px 0;
     text-align: center;
-    position: fixed;
+    position: fixed !important; /* Forzar posición fija */
     bottom: 0;
     left: 0;
     right: 0;
@@ -225,6 +225,7 @@ buscar#search-container {
     border-top: 1px solid #444;
     height: auto;
     min-height: 40px;
+    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
 }
 
 #search-container h1 {
