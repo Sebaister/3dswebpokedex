@@ -214,7 +214,7 @@ h2 {
 
 /* Estilos de búsqueda y resultados */
 #search-container {
-    padding: 2px;
+    padding: 0px;
     text-align: center;
     position: fixed;
     bottom: 0;
