@@ -26,18 +26,38 @@
     <div id="search-container">
         <h1>Buscar Pokémon</h1>
         <div class="nav-container">
-            <img src="sprites/izq.png" id="prevPokemon" class="nav-arrow" alt="Anterior" onclick="navegarPokemon(-1);">
+            <button id="prevPokemon" class="nav-button" onclick="navegarPokemon(-1);" tabindex="1">
+                <img src="sprites/izq.png" class="nav-arrow" alt="Anterior">
+            </button>
             <form onsubmit="buscar(); return false;">
-                <input type="text" id="pokeInput">
-                <input type="submit" value="Buscar">
+                <input type="text" id="pokeInput" tabindex="2">
+                <input type="submit" value="Buscar" tabindex="3">
             </form>
-            <img src="sprites/der.png" id="nextPokemon" class="nav-arrow" alt="Siguiente" onclick="navegarPokemon(1);">
+            <button id="nextPokemon" class="nav-button" onclick="navegarPokemon(1);" tabindex="4">
+                <img src="sprites/der.png" class="nav-arrow" alt="Siguiente">
+            </button>
         </div>
     </div>
 
     <script>
         // Asegurarnos de que los datos se carguen al inicio
         window.onload = cargarDatos;
+        
+        // Añadir manejo de teclas para navegación
+        document.addEventListener('keydown', function(event) {
+            // Tecla izquierda
+            if (event.keyCode === 37) {
+                document.getElementById('prevPokemon').focus();
+            }
+            // Tecla derecha
+            else if (event.keyCode === 39) {
+                document.getElementById('nextPokemon').focus();
+            }
+            // Tecla A (generalmente es Enter en navegadores)
+            else if (event.keyCode === 13 && document.activeElement.tagName === 'BUTTON') {
+                document.activeElement.click();
+            }
+        });
     </script>
     <script src="busqueda.js"></script>
 </body>
