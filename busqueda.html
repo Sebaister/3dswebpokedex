@@ -21,15 +21,28 @@
 
     <div id="search-container">
         <h1>Buscar Pokémon</h1>
-        <form onsubmit="buscar(); return false;">
-            <input type="text" id="pokeInput">
-            <input type="submit" value="Buscar">
-        </form>
+        <div class="nav-container">
+            <img src="sprites/izq.png" id="prevPokemon" class="nav-arrow" alt="Anterior">
+            <form onsubmit="buscar(); return false;">
+                <input type="text" id="pokeInput">
+                <input type="submit" value="Buscar">
+            </form>
+            <img src="sprites/der.png" id="nextPokemon" class="nav-arrow" alt="Siguiente">
+        </div>
     </div>
 
     <script>
         // Asegurarnos de que los datos se carguen al inicio
         window.onload = cargarDatos;
+        
+        // Agregar eventos a las flechas de navegación
+        document.getElementById('prevPokemon').onclick = function() {
+            navegarPokemon(-1);
+        };
+        
+        document.getElementById('nextPokemon').onclick = function() {
+            navegarPokemon(1);
+        };
     </script>
     <script src="busqueda.js"></script>
 </body>

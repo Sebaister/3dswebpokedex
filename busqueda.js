@@ -321,3 +321,40 @@ if (window.addEventListener) {
 } else {
     window.onload = cargarDatos;
 }
+
+
+// Función para navegar entre Pokémon
+function navegarPokemon(direccion) {
+    try {
+        // Obtener el Pokémon actual
+        var pokemonActual = null;
+        var nombreElement = document.getElementById("pokeName");
+        
+        if (nombreElement && nombreElement.innerHTML) {
+            // Extraer el número del Pokémon actual
+            var idActual = parseInt(nombreElement.innerHTML.split(".")[0]);
+            
+            if (!isNaN(idActual)) {
+                // Calcular el nuevo ID
+                var nuevoId = idActual + direccion;
+                
+                // Asegurarse de que el ID esté dentro del rango válido
+                if (nuevoId > 0 && nuevoId <= pokedata.length) {
+                    // Buscar el Pokémon con el nuevo ID
+                    document.getElementById("pokeInput").value = nuevoId;
+                    buscar();
+                }
+            }
+        } else {
+            // Si no hay Pokémon mostrado, mostrar el primero o el último
+            if (direccion > 0) {
+                document.getElementById("pokeInput").value = "1";
+            } else {
+                document.getElementById("pokeInput").value = pokedata.length.toString();
+            }
+            buscar();
+        }
+    } catch(e) {
+        alert("Error al navegar: " + e.message);
+    }
+}

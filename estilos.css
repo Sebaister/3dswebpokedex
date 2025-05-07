@@ -240,10 +240,23 @@ h2 {
     gap: 10px;
 }
 
-.nav-button {
+/* Estilos para las flechas de navegación */
+.nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 0;
+}
+
+.nav-arrow {
     width: 24px;
     height: 24px;
     cursor: pointer;
+    margin: 0 10px;
+}
+
+#search-container form {
+    display: inline-block;
 }
 
 #pokeImg {
