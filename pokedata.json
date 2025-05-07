@@ -23,7 +23,7 @@
         "b": "ivysaur",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -52,7 +52,7 @@
         "b": "venusaur",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -98,7 +98,7 @@
         "b": "charmeleon",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -126,7 +126,7 @@
         "b": "charizard",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -172,7 +172,7 @@
         "b": "wartortle",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -200,7 +200,7 @@
         "b": "blastoise",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -245,7 +245,7 @@
         "b": "metapod",
         "condiciones": [
           "Nivel mínimo: 7",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -273,7 +273,7 @@
         "b": "butterfree",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -320,7 +320,7 @@
         "b": "kakuna",
         "condiciones": [
           "Nivel mínimo: 7",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -349,7 +349,7 @@
         "b": "beedrill",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -396,7 +396,7 @@
         "b": "pidgeotto",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -425,7 +425,7 @@
         "b": "pidgeot",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -471,7 +471,7 @@
         "b": "raticate",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -517,7 +517,7 @@
         "b": "fearow",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -563,7 +563,7 @@
         "b": "arbok",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -607,8 +607,8 @@
         "a_sprite": "25.png",
         "b": "raichu",
         "condiciones": [
-          "item: thunder-stone",
-          "trigger: use-item"
+          "Objeto: Piedra trueno",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -653,7 +653,7 @@
         "b": "sandslash",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -698,7 +698,7 @@
         "b": "nidorina",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -725,8 +725,8 @@
         "a_sprite": "30.png",
         "b": "nidoqueen",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -772,7 +772,7 @@
         "b": "nidorino",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -799,8 +799,8 @@
         "a_sprite": "33.png",
         "b": "nidoking",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -845,8 +845,8 @@
         "a_sprite": "35.png",
         "b": "clefable",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -890,8 +890,8 @@
         "a_sprite": "37.png",
         "b": "ninetales",
         "condiciones": [
-          "item: fire-stone",
-          "trigger: use-item"
+          "Objeto: Piedra fuego",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -936,8 +936,8 @@
         "a_sprite": "39.png",
         "b": "wigglytuff",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -984,7 +984,7 @@
         "b": "golbat",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1013,7 +1013,7 @@
         "b": "crobat",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1042,7 +1042,7 @@
         "b": "gloom",
         "condiciones": [
           "Nivel mínimo: 21",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1070,8 +1070,8 @@
         "a_sprite": "44.png",
         "b": "vileplume",
         "condiciones": [
-          "item: leaf-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hoja",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -1080,8 +1080,8 @@
         "a_sprite": "44.png",
         "b": "bellossom",
         "condiciones": [
-          "item: sun-stone",
-          "trigger: use-item"
+          "Objeto: Piedra solar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -1128,7 +1128,7 @@
         "b": "parasect",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1175,7 +1175,7 @@
         "b": "venomoth",
         "condiciones": [
           "Nivel mínimo: 31",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1221,7 +1221,7 @@
         "b": "dugtrio",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1266,7 +1266,7 @@
         "b": "persian",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -1276,7 +1276,7 @@
         "b": "perrserker",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1321,7 +1321,7 @@
         "b": "golduck",
         "condiciones": [
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1366,7 +1366,7 @@
         "b": "primeape",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1393,7 +1393,7 @@
         "a_sprite": "57.png",
         "b": "annihilape",
         "condiciones": [
-          "trigger: other"
+          "Metodo: other"
         ]
       }
     ]
@@ -1420,8 +1420,8 @@
         "a_sprite": "58.png",
         "b": "arcanine",
         "condiciones": [
-          "item: fire-stone",
-          "trigger: use-item"
+          "Objeto: Piedra fuego",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -1466,7 +1466,7 @@
         "b": "poliwhirl",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1493,8 +1493,8 @@
         "a_sprite": "61.png",
         "b": "poliwrath",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -1503,8 +1503,8 @@
         "a_sprite": "61.png",
         "b": "politoed",
         "condiciones": [
-          "Objeto equipado: kings-rock",
-          "trigger: trade"
+          "Objeto equipado: Roca del rey",
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -1550,7 +1550,7 @@
         "b": "kadabra",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1577,7 +1577,7 @@
         "a_sprite": "64.png",
         "b": "alakazam",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -1622,7 +1622,7 @@
         "b": "machoke",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1649,7 +1649,7 @@
         "a_sprite": "67.png",
         "b": "machamp",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -1695,7 +1695,7 @@
         "b": "weepinbell",
         "condiciones": [
           "Nivel mínimo: 21",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1723,8 +1723,8 @@
         "a_sprite": "70.png",
         "b": "victreebel",
         "condiciones": [
-          "item: leaf-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hoja",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -1771,7 +1771,7 @@
         "b": "tentacruel",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1818,7 +1818,7 @@
         "b": "graveler",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1846,7 +1846,7 @@
         "a_sprite": "75.png",
         "b": "golem",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -1892,7 +1892,7 @@
         "b": "rapidash",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -1938,7 +1938,7 @@
         "b": "slowbro",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -1947,8 +1947,8 @@
         "a_sprite": "79.png",
         "b": "slowking",
         "condiciones": [
-          "Objeto equipado: kings-rock",
-          "trigger: trade"
+          "Objeto equipado: Roca del rey",
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -1995,7 +1995,7 @@
         "b": "magneton",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2024,7 +2024,7 @@
         "b": "magnezone",
         "condiciones": [
           "Ubicación: mt-coronet",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2052,7 +2052,7 @@
         "a_sprite": "83.png",
         "b": "sirfetchd",
         "condiciones": [
-          "trigger: three-critical-hits"
+          "Metodo: three-critical-hits"
         ]
       }
     ]
@@ -2081,7 +2081,7 @@
         "b": "dodrio",
         "condiciones": [
           "Nivel mínimo: 31",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2127,7 +2127,7 @@
         "b": "dewgong",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2173,7 +2173,7 @@
         "b": "muk",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2217,8 +2217,8 @@
         "a_sprite": "90.png",
         "b": "cloyster",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -2265,7 +2265,7 @@
         "b": "haunter",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2293,7 +2293,7 @@
         "a_sprite": "93.png",
         "b": "gengar",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -2340,7 +2340,7 @@
         "b": "steelix",
         "condiciones": [
           "Objeto equipado: metal-coat",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -2368,7 +2368,7 @@
         "b": "hypno",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2413,7 +2413,7 @@
         "b": "kingler",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2458,7 +2458,7 @@
         "b": "electrode",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2503,8 +2503,8 @@
         "a_sprite": "102.png",
         "b": "exeggutor",
         "condiciones": [
-          "item: leaf-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hoja",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -2550,7 +2550,7 @@
         "b": "marowak",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2629,7 +2629,7 @@
         "b": "lickilicky",
         "condiciones": [
           "Movimiento conocido: rollout",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2657,7 +2657,7 @@
         "b": "weezing",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2703,7 +2703,7 @@
         "b": "rhydon",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2732,7 +2732,7 @@
         "b": "rhyperior",
         "condiciones": [
           "Objeto equipado: protector",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -2760,7 +2760,7 @@
         "b": "blissey",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2788,7 +2788,7 @@
         "b": "tangrowth",
         "condiciones": [
           "Movimiento conocido: ancient-power",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2833,7 +2833,7 @@
         "b": "seadra",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2861,7 +2861,7 @@
         "b": "kingdra",
         "condiciones": [
           "Objeto equipado: dragon-scale",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -2889,7 +2889,7 @@
         "b": "seaking",
         "condiciones": [
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -2933,8 +2933,8 @@
         "a_sprite": "120.png",
         "b": "starmie",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -2981,7 +2981,7 @@
         "b": "mr-rime",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3010,7 +3010,7 @@
         "b": "scizor",
         "condiciones": [
           "Objeto equipado: metal-coat",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       },
       {
@@ -3019,8 +3019,8 @@
         "a_sprite": "123.png",
         "b": "kleavor",
         "condiciones": [
-          "item: black-augurite",
-          "trigger: use-item"
+          "Objeto: black-augurite",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -3066,7 +3066,7 @@
         "b": "electivire",
         "condiciones": [
           "Objeto equipado: electirizer",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -3094,7 +3094,7 @@
         "b": "magmortar",
         "condiciones": [
           "Objeto equipado: magmarizer",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -3156,7 +3156,7 @@
         "b": "gyarados",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3236,8 +3236,8 @@
         "a_sprite": "133.png",
         "b": "vaporeon",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -3246,8 +3246,8 @@
         "a_sprite": "133.png",
         "b": "jolteon",
         "condiciones": [
-          "item: thunder-stone",
-          "trigger: use-item"
+          "Objeto: Piedra trueno",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -3256,8 +3256,8 @@
         "a_sprite": "133.png",
         "b": "flareon",
         "condiciones": [
-          "item: fire-stone",
-          "trigger: use-item"
+          "Objeto: Piedra fuego",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -3267,8 +3267,8 @@
         "b": "espeon",
         "condiciones": [
           "Felicidad mínima: 160",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -3279,7 +3279,7 @@
         "condiciones": [
           "Felicidad mínima: 160",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -3289,7 +3289,7 @@
         "b": "leafeon",
         "condiciones": [
           "Ubicación: eterna-forest",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -3299,7 +3299,7 @@
         "b": "glaceon",
         "condiciones": [
           "Ubicación: sinnoh-route-217",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -3310,7 +3310,7 @@
         "condiciones": [
           "Tipo de movimiento conocido: fairy",
           "Afecto mínimo: 2",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3389,7 +3389,7 @@
         "b": "porygon2",
         "condiciones": [
           "Objeto equipado: up-grade",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -3418,7 +3418,7 @@
         "b": "omastar",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3465,7 +3465,7 @@
         "b": "kabutops",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3600,7 +3600,7 @@
         "b": "dragonair",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3628,7 +3628,7 @@
         "b": "dragonite",
         "condiciones": [
           "Nivel mínimo: 55",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3708,7 +3708,7 @@
         "b": "bayleef",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3736,7 +3736,7 @@
         "b": "meganium",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3781,7 +3781,7 @@
         "b": "quilava",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3809,7 +3809,7 @@
         "b": "typhlosion",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3854,7 +3854,7 @@
         "b": "croconaw",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3882,7 +3882,7 @@
         "b": "feraligatr",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3927,7 +3927,7 @@
         "b": "furret",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -3973,7 +3973,7 @@
         "b": "noctowl",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4020,7 +4020,7 @@
         "b": "ledian",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4067,7 +4067,7 @@
         "b": "ariados",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4132,7 +4132,7 @@
         "b": "lanturn",
         "condiciones": [
           "Nivel mínimo: 27",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4178,7 +4178,7 @@
         "b": "pikachu",
         "condiciones": [
           "Felicidad mínima: 220",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4206,7 +4206,7 @@
         "b": "clefairy",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4235,7 +4235,7 @@
         "b": "jigglypuff",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4263,7 +4263,7 @@
         "b": "togetic",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4291,8 +4291,8 @@
         "a_sprite": "176.png",
         "b": "togekiss",
         "condiciones": [
-          "item: shiny-stone",
-          "trigger: use-item"
+          "Objeto: Piedra día",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -4321,7 +4321,7 @@
         "b": "xatu",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4367,7 +4367,7 @@
         "b": "flaaffy",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4395,7 +4395,7 @@
         "b": "ampharos",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4458,7 +4458,7 @@
         "b": "azumarill",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4539,7 +4539,7 @@
         "b": "skiploom",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4568,7 +4568,7 @@
         "b": "jumpluff",
         "condiciones": [
           "Nivel mínimo: 27",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4614,7 +4614,7 @@
         "b": "ambipom",
         "condiciones": [
           "Movimiento conocido: double-hit",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4641,8 +4641,8 @@
         "a_sprite": "191.png",
         "b": "sunflora",
         "condiciones": [
-          "item: sun-stone",
-          "trigger: use-item"
+          "Objeto: Piedra solar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -4688,7 +4688,7 @@
         "b": "yanmega",
         "condiciones": [
           "Movimiento conocido: ancient-power",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4717,7 +4717,7 @@
         "b": "quagsire",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -4727,7 +4727,7 @@
         "b": "clodsire",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4807,8 +4807,8 @@
         "a_sprite": "198.png",
         "b": "honchkrow",
         "condiciones": [
-          "item: dusk-stone",
-          "trigger: use-item"
+          "Objeto: Piedra noche",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -4853,8 +4853,8 @@
         "a_sprite": "200.png",
         "b": "mismagius",
         "condiciones": [
-          "item: dusk-stone",
-          "trigger: use-item"
+          "Objeto: Piedra noche",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -4917,7 +4917,7 @@
         "b": "farigiraf",
         "condiciones": [
           "Movimiento conocido: twin-beam",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4945,7 +4945,7 @@
         "b": "forretress",
         "condiciones": [
           "Nivel mínimo: 31",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -4991,7 +4991,7 @@
         "b": "dudunsparce",
         "condiciones": [
           "Movimiento conocido: hyper-drill",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5021,7 +5021,7 @@
         "condiciones": [
           "Objeto equipado: razor-fang",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5067,7 +5067,7 @@
         "b": "granbull",
         "condiciones": [
           "Nivel mínimo: 23",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5113,7 +5113,7 @@
         "b": "overqwil",
         "condiciones": [
           "Movimiento conocido: barb-barrage",
-          "trigger: strong-style-move"
+          "Metodo: strong-style-move"
         ]
       }
     ]
@@ -5197,7 +5197,7 @@
         "condiciones": [
           "Objeto equipado: razor-claw",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -5207,8 +5207,8 @@
         "b": "sneasler",
         "condiciones": [
           "Objeto equipado: razor-claw",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5236,7 +5236,7 @@
         "b": "ursaring",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5263,9 +5263,9 @@
         "a_sprite": "217.png",
         "b": "ursaluna",
         "condiciones": [
-          "item: peat-block",
-          "Momento del día: full-moon",
-          "trigger: use-item"
+          "Objeto: Bloque de turba",
+          "Momento del día: Luna llena",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -5293,7 +5293,7 @@
         "b": "magcargo",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5340,7 +5340,7 @@
         "b": "piloswine",
         "condiciones": [
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5369,7 +5369,7 @@
         "b": "mamoswine",
         "condiciones": [
           "Movimiento conocido: ancient-power",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5398,7 +5398,7 @@
         "b": "cursola",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5426,7 +5426,7 @@
         "b": "octillery",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5526,7 +5526,7 @@
         "b": "houndoom",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5590,7 +5590,7 @@
         "b": "donphan",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5635,7 +5635,7 @@
         "b": "porygon-z",
         "condiciones": [
           "Objeto equipado: dubious-disc",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -5663,7 +5663,7 @@
         "b": "wyrdeer",
         "condiciones": [
           "Movimiento conocido: psyshield-bash",
-          "trigger: agile-style-move"
+          "Metodo: agile-style-move"
         ]
       }
     ]
@@ -5709,7 +5709,7 @@
         "condiciones": [
           "Nivel mínimo: 20",
           "Comparación de estadísticas: 1",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -5720,7 +5720,7 @@
         "condiciones": [
           "Nivel mínimo: 20",
           "Comparación de estadísticas: -1",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -5731,7 +5731,7 @@
         "condiciones": [
           "Nivel mínimo: 20",
           "Comparación de estadísticas: 0",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5777,7 +5777,7 @@
         "b": "jynx",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5805,7 +5805,7 @@
         "b": "electabuzz",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5833,7 +5833,7 @@
         "b": "magmar",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5947,7 +5947,7 @@
         "b": "pupitar",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -5976,7 +5976,7 @@
         "b": "tyranitar",
         "condiciones": [
           "Nivel mínimo: 55",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6076,7 +6076,7 @@
         "b": "grovyle",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6104,7 +6104,7 @@
         "b": "sceptile",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6149,7 +6149,7 @@
         "b": "combusken",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6178,7 +6178,7 @@
         "b": "blaziken",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6224,7 +6224,7 @@
         "b": "marshtomp",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6253,7 +6253,7 @@
         "b": "swampert",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6299,7 +6299,7 @@
         "b": "mightyena",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6344,7 +6344,7 @@
         "b": "linoone",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6373,7 +6373,7 @@
         "condiciones": [
           "Nivel mínimo: 35",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6401,7 +6401,7 @@
         "b": "silcoon",
         "condiciones": [
           "Nivel mínimo: 7",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -6411,7 +6411,7 @@
         "b": "cascoon",
         "condiciones": [
           "Nivel mínimo: 7",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6439,7 +6439,7 @@
         "b": "beautifly",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6485,7 +6485,7 @@
         "b": "dustox",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6532,7 +6532,7 @@
         "b": "lombre",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6560,8 +6560,8 @@
         "a_sprite": "271.png",
         "b": "ludicolo",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -6607,7 +6607,7 @@
         "b": "nuzleaf",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6635,8 +6635,8 @@
         "a_sprite": "274.png",
         "b": "shiftry",
         "condiciones": [
-          "item: leaf-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hoja",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -6683,7 +6683,7 @@
         "b": "swellow",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6730,7 +6730,7 @@
         "b": "pelipper",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6777,7 +6777,7 @@
         "b": "kirlia",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6806,7 +6806,7 @@
         "b": "gardevoir",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -6815,9 +6815,9 @@
         "a_sprite": "281.png",
         "b": "gallade",
         "condiciones": [
-          "Género: 2",
-          "item: dawn-stone",
-          "trigger: use-item"
+          "Género: Macho",
+          "Objeto: Piedra alba",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -6864,7 +6864,7 @@
         "b": "masquerain",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6910,7 +6910,7 @@
         "b": "breloom",
         "condiciones": [
           "Nivel mínimo: 23",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6956,7 +6956,7 @@
         "b": "vigoroth",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -6984,7 +6984,7 @@
         "b": "slaking",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7030,7 +7030,7 @@
         "b": "ninjask",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -7039,7 +7039,7 @@
         "a_sprite": "290.png",
         "b": "shedinja",
         "condiciones": [
-          "trigger: shed"
+          "Metodo: si hay espacio en el equipo + una Poké Ball"
         ]
       }
     ]
@@ -7103,7 +7103,7 @@
         "b": "loudred",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7131,7 +7131,7 @@
         "b": "exploud",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7176,7 +7176,7 @@
         "b": "hariyama",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7222,7 +7222,7 @@
         "b": "marill",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7250,7 +7250,7 @@
         "b": "probopass",
         "condiciones": [
           "Ubicación: mt-coronet",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7277,8 +7277,8 @@
         "a_sprite": "300.png",
         "b": "delcatty",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -7360,7 +7360,7 @@
         "b": "lairon",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7389,7 +7389,7 @@
         "b": "aggron",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7436,7 +7436,7 @@
         "b": "medicham",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7482,7 +7482,7 @@
         "b": "manectric",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7595,8 +7595,8 @@
         "a_sprite": "315.png",
         "b": "roserade",
         "condiciones": [
-          "item: shiny-stone",
-          "trigger: use-item"
+          "Objeto: Piedra día",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -7624,7 +7624,7 @@
         "b": "swalot",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7670,7 +7670,7 @@
         "b": "sharpedo",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7716,7 +7716,7 @@
         "b": "wailord",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7762,7 +7762,7 @@
         "b": "camerupt",
         "condiciones": [
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7825,7 +7825,7 @@
         "b": "grumpig",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7887,7 +7887,7 @@
         "b": "vibrava",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7916,7 +7916,7 @@
         "b": "flygon",
         "condiciones": [
           "Nivel mínimo: 45",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -7962,7 +7962,7 @@
         "b": "cacturne",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8009,7 +8009,7 @@
         "b": "altaria",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8126,7 +8126,7 @@
         "b": "whiscash",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8172,7 +8172,7 @@
         "b": "crawdaunt",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8219,7 +8219,7 @@
         "b": "claydol",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8266,7 +8266,7 @@
         "b": "cradily",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8313,7 +8313,7 @@
         "b": "armaldo",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8359,7 +8359,7 @@
         "b": "milotic",
         "condiciones": [
           "Belleza mínima: 171",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8438,7 +8438,7 @@
         "b": "banette",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8483,7 +8483,7 @@
         "b": "dusclops",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8510,8 +8510,8 @@
         "a_sprite": "356.png",
         "b": "dusknoir",
         "condiciones": [
-          "Objeto equipado: reaper-cloth",
-          "trigger: trade"
+          "Objeto equipado: Tela terrible",
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -8591,7 +8591,7 @@
         "b": "wobbuffet",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8619,7 +8619,7 @@
         "b": "glalie",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -8628,9 +8628,9 @@
         "a_sprite": "361.png",
         "b": "froslass",
         "condiciones": [
-          "Género: 1",
-          "item: dawn-stone",
-          "trigger: use-item"
+          "Género: Hembra",
+          "Objeto: Piedra alba",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -8676,7 +8676,7 @@
         "b": "sealeo",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8705,7 +8705,7 @@
         "b": "walrein",
         "condiciones": [
           "Nivel mínimo: 44",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8751,7 +8751,7 @@
         "b": "huntail",
         "condiciones": [
           "Objeto equipado: deep-sea-tooth",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       },
       {
@@ -8761,7 +8761,7 @@
         "b": "gorebyss",
         "condiciones": [
           "Objeto equipado: deep-sea-scale",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -8858,7 +8858,7 @@
         "b": "shelgon",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8886,7 +8886,7 @@
         "b": "salamence",
         "condiciones": [
           "Nivel mínimo: 50",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8933,7 +8933,7 @@
         "b": "metang",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -8962,7 +8962,7 @@
         "b": "metagross",
         "condiciones": [
           "Nivel mínimo: 45",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9182,7 +9182,7 @@
         "b": "grotle",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9210,7 +9210,7 @@
         "b": "torterra",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9256,7 +9256,7 @@
         "b": "monferno",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9285,7 +9285,7 @@
         "b": "infernape",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9331,7 +9331,7 @@
         "b": "prinplup",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9359,7 +9359,7 @@
         "b": "empoleon",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9406,7 +9406,7 @@
         "b": "staravia",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9435,7 +9435,7 @@
         "b": "staraptor",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9481,7 +9481,7 @@
         "b": "bibarel",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9527,7 +9527,7 @@
         "b": "kricketune",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9572,7 +9572,7 @@
         "b": "luxio",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9600,7 +9600,7 @@
         "b": "luxray",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9646,8 +9646,8 @@
         "b": "roselia",
         "condiciones": [
           "Felicidad mínima: 160",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9693,7 +9693,7 @@
         "b": "rampardos",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9739,7 +9739,7 @@
         "b": "bastiodon",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9784,9 +9784,9 @@
         "a_sprite": "412.png",
         "b": "wormadam",
         "condiciones": [
-          "Género: 1",
+          "Género: Hembra",
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -9795,9 +9795,9 @@
         "a_sprite": "412.png",
         "b": "mothim",
         "condiciones": [
-          "Género: 2",
+          "Género: Macho",
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9861,9 +9861,9 @@
         "a_sprite": "415.png",
         "b": "vespiquen",
         "condiciones": [
-          "Género: 1",
+          "Género: Hembra",
           "Nivel mínimo: 21",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9926,7 +9926,7 @@
         "b": "floatzel",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -9971,7 +9971,7 @@
         "b": "cherrim",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10016,7 +10016,7 @@
         "b": "gastrodon",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10080,7 +10080,7 @@
         "b": "drifblim",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10126,7 +10126,7 @@
         "b": "lopunny",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10206,7 +10206,7 @@
         "b": "purugly",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10252,7 +10252,7 @@
         "condiciones": [
           "Felicidad mínima: 220",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10281,7 +10281,7 @@
         "b": "skuntank",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10328,7 +10328,7 @@
         "b": "bronzong",
         "condiciones": [
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10374,7 +10374,7 @@
         "b": "sudowoodo",
         "condiciones": [
           "Movimiento conocido: mimic",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10403,7 +10403,7 @@
         "b": "mr-mime",
         "condiciones": [
           "Movimiento conocido: mimic",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10430,9 +10430,9 @@
         "a_sprite": "440.png",
         "b": "chansey",
         "condiciones": [
-          "Objeto equipado: oval-stone",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Objeto equipado: Piedra oval",
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10497,7 +10497,7 @@
         "b": "gabite",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10526,7 +10526,7 @@
         "b": "garchomp",
         "condiciones": [
           "Nivel mínimo: 48",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10572,7 +10572,7 @@
         "b": "snorlax",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10600,8 +10600,8 @@
         "b": "lucario",
         "condiciones": [
           "Felicidad mínima: 160",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10647,7 +10647,7 @@
         "b": "hippowdon",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10693,7 +10693,7 @@
         "b": "drapion",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10740,7 +10740,7 @@
         "b": "toxicroak",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10803,7 +10803,7 @@
         "b": "lumineon",
         "condiciones": [
           "Nivel mínimo: 31",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10849,7 +10849,7 @@
         "b": "mantine",
         "condiciones": [
           "Especie en el equipo: remoraid",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -10878,7 +10878,7 @@
         "b": "abomasnow",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11526,7 +11526,7 @@
         "b": "servine",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11554,7 +11554,7 @@
         "b": "serperior",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11599,7 +11599,7 @@
         "b": "pignite",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11628,7 +11628,7 @@
         "b": "emboar",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11674,7 +11674,7 @@
         "b": "dewott",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11702,7 +11702,7 @@
         "b": "samurott",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11747,7 +11747,7 @@
         "b": "watchog",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11792,7 +11792,7 @@
         "b": "herdier",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11820,7 +11820,7 @@
         "b": "stoutland",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11865,7 +11865,7 @@
         "b": "liepard",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -11909,8 +11909,8 @@
         "a_sprite": "511.png",
         "b": "simisage",
         "condiciones": [
-          "item: leaf-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hoja",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -11954,8 +11954,8 @@
         "a_sprite": "513.png",
         "b": "simisear",
         "condiciones": [
-          "item: fire-stone",
-          "trigger: use-item"
+          "Objeto: Piedra fuego",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -11999,8 +11999,8 @@
         "a_sprite": "515.png",
         "b": "simipour",
         "condiciones": [
-          "item: water-stone",
-          "trigger: use-item"
+          "Objeto: Piedra agua",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -12044,8 +12044,8 @@
         "a_sprite": "517.png",
         "b": "musharna",
         "condiciones": [
-          "item: moon-stone",
-          "trigger: use-item"
+          "Objeto: Piedra lunar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -12091,7 +12091,7 @@
         "b": "tranquill",
         "condiciones": [
           "Nivel mínimo: 21",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12120,7 +12120,7 @@
         "b": "unfezant",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12166,7 +12166,7 @@
         "b": "zebstrika",
         "condiciones": [
           "Nivel mínimo: 27",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12211,7 +12211,7 @@
         "b": "boldore",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12238,7 +12238,7 @@
         "a_sprite": "525.png",
         "b": "gigalith",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -12284,7 +12284,7 @@
         "b": "swoobat",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12330,7 +12330,7 @@
         "b": "excadrill",
         "condiciones": [
           "Nivel mínimo: 31",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12393,7 +12393,7 @@
         "b": "gurdurr",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12420,7 +12420,7 @@
         "a_sprite": "533.png",
         "b": "conkeldurr",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -12465,7 +12465,7 @@
         "b": "palpitoad",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12494,7 +12494,7 @@
         "b": "seismitoad",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12575,7 +12575,7 @@
         "b": "swadloon",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12604,7 +12604,7 @@
         "b": "leavanny",
         "condiciones": [
           "Felicidad mínima: 220",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12651,7 +12651,7 @@
         "b": "whirlipede",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12680,7 +12680,7 @@
         "b": "scolipede",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12726,8 +12726,8 @@
         "a_sprite": "546.png",
         "b": "whimsicott",
         "condiciones": [
-          "item: sun-stone",
-          "trigger: use-item"
+          "Objeto: Piedra solar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -12772,8 +12772,8 @@
         "a_sprite": "548.png",
         "b": "lilligant",
         "condiciones": [
-          "item: sun-stone",
-          "trigger: use-item"
+          "Objeto: Piedra solar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -12836,7 +12836,7 @@
         "b": "krokorok",
         "condiciones": [
           "Nivel mínimo: 29",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12865,7 +12865,7 @@
         "b": "krookodile",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12911,7 +12911,7 @@
         "b": "darmanitan",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -12974,7 +12974,7 @@
         "b": "crustle",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13021,7 +13021,7 @@
         "b": "scrafty",
         "condiciones": [
           "Nivel mínimo: 39",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13085,7 +13085,7 @@
         "b": "cofagrigus",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -13094,7 +13094,7 @@
         "a_sprite": "562.png",
         "b": "runerigus",
         "condiciones": [
-          "trigger: take-damage"
+          "Metodo: take-damage"
         ]
       }
     ]
@@ -13140,7 +13140,7 @@
         "b": "carracosta",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13187,7 +13187,7 @@
         "b": "archeops",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13233,7 +13233,7 @@
         "b": "garbodor",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13278,7 +13278,7 @@
         "b": "zoroark",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13322,8 +13322,8 @@
         "a_sprite": "572.png",
         "b": "cinccino",
         "condiciones": [
-          "item: shiny-stone",
-          "trigger: use-item"
+          "Objeto: Piedra día",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -13368,7 +13368,7 @@
         "b": "gothorita",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13396,7 +13396,7 @@
         "b": "gothitelle",
         "condiciones": [
           "Nivel mínimo: 41",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13441,7 +13441,7 @@
         "b": "duosion",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13469,7 +13469,7 @@
         "b": "reuniclus",
         "condiciones": [
           "Nivel mínimo: 41",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13515,7 +13515,7 @@
         "b": "swanna",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13561,7 +13561,7 @@
         "b": "vanillish",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13589,7 +13589,7 @@
         "b": "vanilluxe",
         "condiciones": [
           "Nivel mínimo: 47",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13635,7 +13635,7 @@
         "b": "sawsbuck",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13699,7 +13699,7 @@
         "b": "escavalier",
         "condiciones": [
           "Intercambiado por especie: shelmet",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -13746,7 +13746,7 @@
         "b": "amoonguss",
         "condiciones": [
           "Nivel mínimo: 39",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13793,7 +13793,7 @@
         "b": "jellicent",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13857,7 +13857,7 @@
         "b": "galvantula",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13904,7 +13904,7 @@
         "b": "ferrothorn",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13950,7 +13950,7 @@
         "b": "klang",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -13978,7 +13978,7 @@
         "b": "klinklang",
         "condiciones": [
           "Nivel mínimo: 49",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14023,7 +14023,7 @@
         "b": "eelektrik",
         "condiciones": [
           "Nivel mínimo: 39",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14050,8 +14050,8 @@
         "a_sprite": "603.png",
         "b": "eelektross",
         "condiciones": [
-          "item: thunder-stone",
-          "trigger: use-item"
+          "Objeto: Piedra trueno",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -14096,7 +14096,7 @@
         "b": "beheeyem",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14142,7 +14142,7 @@
         "b": "lampent",
         "condiciones": [
           "Nivel mínimo: 41",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14170,8 +14170,8 @@
         "a_sprite": "608.png",
         "b": "chandelure",
         "condiciones": [
-          "item: dusk-stone",
-          "trigger: use-item"
+          "Objeto: Piedra noche",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -14217,7 +14217,7 @@
         "b": "fraxure",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14245,7 +14245,7 @@
         "b": "haxorus",
         "condiciones": [
           "Nivel mínimo: 48",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14290,7 +14290,7 @@
         "b": "beartic",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14352,7 +14352,7 @@
         "b": "accelgor",
         "condiciones": [
           "Intercambiado por especie: karrablast",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -14415,7 +14415,7 @@
         "b": "mienshao",
         "condiciones": [
           "Nivel mínimo: 50",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14478,7 +14478,7 @@
         "b": "golurk",
         "condiciones": [
           "Nivel mínimo: 43",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14525,7 +14525,7 @@
         "b": "bisharp",
         "condiciones": [
           "Nivel mínimo: 52",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14553,7 +14553,7 @@
         "a_sprite": "625.png",
         "b": "kingambit",
         "condiciones": [
-          "trigger: other"
+          "Metodo: other"
         ]
       }
     ]
@@ -14599,7 +14599,7 @@
         "b": "braviary",
         "condiciones": [
           "Nivel mínimo: 54",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14646,7 +14646,7 @@
         "b": "mandibuzz",
         "condiciones": [
           "Nivel mínimo: 54",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14728,7 +14728,7 @@
         "b": "zweilous",
         "condiciones": [
           "Nivel mínimo: 50",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14757,7 +14757,7 @@
         "b": "hydreigon",
         "condiciones": [
           "Nivel mínimo: 64",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -14804,7 +14804,7 @@
         "b": "volcarona",
         "condiciones": [
           "Nivel mínimo: 59",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15065,7 +15065,7 @@
         "b": "quilladin",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15093,7 +15093,7 @@
         "b": "chesnaught",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15139,7 +15139,7 @@
         "b": "braixen",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15167,7 +15167,7 @@
         "b": "delphox",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15213,7 +15213,7 @@
         "b": "frogadier",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15241,7 +15241,7 @@
         "b": "greninja",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15287,7 +15287,7 @@
         "b": "diggersby",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15334,7 +15334,7 @@
         "b": "fletchinder",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15363,7 +15363,7 @@
         "b": "talonflame",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15409,7 +15409,7 @@
         "b": "spewpa",
         "condiciones": [
           "Nivel mínimo: 9",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15437,7 +15437,7 @@
         "b": "vivillon",
         "condiciones": [
           "Nivel mínimo: 12",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15484,7 +15484,7 @@
         "b": "pyroar",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15530,7 +15530,7 @@
         "b": "floette",
         "condiciones": [
           "Nivel mínimo: 19",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15557,8 +15557,8 @@
         "a_sprite": "670.png",
         "b": "florges",
         "condiciones": [
-          "item: shiny-stone",
-          "trigger: use-item"
+          "Objeto: Piedra día",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -15603,7 +15603,7 @@
         "b": "gogoat",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15648,8 +15648,8 @@
         "b": "pangoro",
         "condiciones": [
           "Nivel mínimo: 32",
-          "Tipo en el equipo: dark",
-          "trigger: level-up"
+          "Tipo en el equipo: Siniestro",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15712,7 +15712,7 @@
         "b": "meowstic",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15758,7 +15758,7 @@
         "b": "doublade",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -15786,8 +15786,8 @@
         "a_sprite": "680.png",
         "b": "aegislash",
         "condiciones": [
-          "item: dusk-stone",
-          "trigger: use-item"
+          "Objeto: Piedra noche",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -15833,7 +15833,7 @@
         "b": "aromatisse",
         "condiciones": [
           "Objeto equipado: sachet",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -15878,7 +15878,7 @@
         "b": "slurpuff",
         "condiciones": [
           "Objeto equipado: whipped-dream",
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -15924,8 +15924,8 @@
         "b": "malamar",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up",
-          "Girar consola: True"
+          "Metodo: Subir Nivel",
+          "Girar consola"
         ]
       }
     ]
@@ -15972,7 +15972,7 @@
         "b": "barbaracle",
         "condiciones": [
           "Nivel mínimo: 39",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16019,7 +16019,7 @@
         "b": "dragalge",
         "condiciones": [
           "Nivel mínimo: 48",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16065,7 +16065,7 @@
         "b": "clawitzer",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16110,8 +16110,8 @@
         "a_sprite": "694.png",
         "b": "heliolisk",
         "condiciones": [
-          "item: sun-stone",
-          "trigger: use-item"
+          "Objeto: Piedra solar",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -16158,8 +16158,8 @@
         "b": "tyrantrum",
         "condiciones": [
           "Nivel mínimo: 39",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16207,7 +16207,7 @@
         "condiciones": [
           "Nivel mínimo: 39",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16324,7 +16324,7 @@
         "b": "sliggoo",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16352,8 +16352,8 @@
         "b": "goodra",
         "condiciones": [
           "Nivel mínimo: 50",
-          "Lluvia en el mundo: True",
-          "trigger: level-up"
+          "Clima es lluvioso",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16416,7 +16416,7 @@
         "a_sprite": "708.png",
         "b": "trevenant",
         "condiciones": [
-          "trigger: trade"
+          "Metodo: Intercambio"
         ]
       }
     ]
@@ -16498,7 +16498,7 @@
         "b": "avalugg",
         "condiciones": [
           "Nivel mínimo: 37",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16544,7 +16544,7 @@
         "b": "noivern",
         "condiciones": [
           "Nivel mínimo: 48",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16698,7 +16698,7 @@
         "b": "dartrix",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16727,7 +16727,7 @@
         "b": "decidueye",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16773,7 +16773,7 @@
         "b": "torracat",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16801,7 +16801,7 @@
         "b": "incineroar",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16847,7 +16847,7 @@
         "b": "brionne",
         "condiciones": [
           "Nivel mínimo: 17",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16875,7 +16875,7 @@
         "b": "primarina",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16922,7 +16922,7 @@
         "b": "trumbeak",
         "condiciones": [
           "Nivel mínimo: 14",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16951,7 +16951,7 @@
         "b": "toucannon",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -16997,8 +16997,8 @@
         "b": "gumshoos",
         "condiciones": [
           "Nivel mínimo: 20",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17043,7 +17043,7 @@
         "b": "charjabug",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17071,7 +17071,7 @@
         "a_sprite": "737.png",
         "b": "vikavolt",
         "condiciones": [
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17117,7 +17117,7 @@
         "b": "crabominable",
         "condiciones": [
           "Ubicación: mount-lanakila",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17182,7 +17182,7 @@
         "b": "ribombee",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17228,8 +17228,8 @@
         "b": "lycanroc",
         "condiciones": [
           "Nivel mínimo: 25",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: Lycanroc forma diurna si es de día en Pokémon Sol y Pokémon Ultrasol y a su forma nocturna en Pokémon Luna y Pokémon Ultraluna",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17292,7 +17292,7 @@
         "b": "toxapex",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17338,7 +17338,7 @@
         "b": "mudsdale",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17384,7 +17384,7 @@
         "b": "araquanid",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17430,8 +17430,8 @@
         "b": "lurantis",
         "condiciones": [
           "Nivel mínimo: 34",
-          "Momento del día: day",
-          "trigger: level-up"
+          "Momento del día: dia",
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17477,7 +17477,7 @@
         "b": "shiinotic",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17523,9 +17523,9 @@
         "a_sprite": "757.png",
         "b": "salazzle",
         "condiciones": [
-          "Género: 1",
+          "Género: Hembra",
           "Nivel mínimo: 33",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17572,7 +17572,7 @@
         "b": "bewear",
         "condiciones": [
           "Nivel mínimo: 27",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17618,7 +17618,7 @@
         "b": "steenee",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17646,7 +17646,7 @@
         "b": "tsareena",
         "condiciones": [
           "Movimiento conocido: stomp",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17744,7 +17744,7 @@
         "b": "golisopod",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17791,7 +17791,7 @@
         "b": "palossand",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -17854,7 +17854,7 @@
         "b": "silvally",
         "condiciones": [
           "Felicidad mínima: 160",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18042,7 +18042,7 @@
         "b": "hakamo-o",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18071,7 +18071,7 @@
         "b": "kommo-o",
         "condiciones": [
           "Nivel mínimo: 45",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18189,7 +18189,7 @@
         "b": "cosmoem",
         "condiciones": [
           "Nivel mínimo: 43",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18217,7 +18217,7 @@
         "b": "solgaleo",
         "condiciones": [
           "Nivel mínimo: 53",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       },
       {
@@ -18227,7 +18227,7 @@
         "b": "lunala",
         "condiciones": [
           "Nivel mínimo: 53",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18469,7 +18469,7 @@
         "b": "naganadel",
         "condiciones": [
           "Movimiento conocido: dragon-pulse",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18602,7 +18602,7 @@
         "b": "thwackey",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18630,7 +18630,7 @@
         "b": "rillaboom",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18675,7 +18675,7 @@
         "b": "raboot",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18703,7 +18703,7 @@
         "b": "cinderace",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18748,7 +18748,7 @@
         "b": "drizzile",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18776,7 +18776,7 @@
         "b": "inteleon",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18821,7 +18821,7 @@
         "b": "greedent",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18866,7 +18866,7 @@
         "b": "corvisquire",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18894,7 +18894,7 @@
         "b": "corviknight",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18940,7 +18940,7 @@
         "b": "dottler",
         "condiciones": [
           "Nivel mínimo: 10",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -18969,7 +18969,7 @@
         "b": "orbeetle",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19015,7 +19015,7 @@
         "b": "thievul",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19060,7 +19060,7 @@
         "b": "eldegoss",
         "condiciones": [
           "Nivel mínimo: 20",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19105,7 +19105,7 @@
         "b": "dubwool",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19150,7 +19150,7 @@
         "b": "drednaw",
         "condiciones": [
           "Nivel mínimo: 22",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19196,7 +19196,7 @@
         "b": "boltund",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19241,7 +19241,7 @@
         "b": "carkol",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19270,7 +19270,7 @@
         "b": "coalossal",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19316,8 +19316,8 @@
         "a_sprite": "840.png",
         "b": "flapple",
         "condiciones": [
-          "item: tart-apple",
-          "trigger: use-item"
+          "Objeto: tart-apple",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -19326,8 +19326,8 @@
         "a_sprite": "840.png",
         "b": "appletun",
         "condiciones": [
-          "item: sweet-apple",
-          "trigger: use-item"
+          "Objeto: sweet-apple",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -19398,7 +19398,7 @@
         "b": "sandaconda",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19461,7 +19461,7 @@
         "b": "barraskewda",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19507,7 +19507,7 @@
         "b": "toxtricity",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19554,7 +19554,7 @@
         "b": "centiskorch",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19600,7 +19600,7 @@
         "b": "grapploct",
         "condiciones": [
           "Movimiento conocido: taunt",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19644,8 +19644,8 @@
         "a_sprite": "854.png",
         "b": "polteageist",
         "condiciones": [
-          "item: cracked-pot",
-          "trigger: use-item"
+          "Objeto: cracked-pot",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -19690,7 +19690,7 @@
         "b": "hattrem",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19718,7 +19718,7 @@
         "b": "hatterene",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19765,7 +19765,7 @@
         "b": "morgrem",
         "condiciones": [
           "Nivel mínimo: 32",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19794,7 +19794,7 @@
         "b": "grimmsnarl",
         "condiciones": [
           "Nivel mínimo: 42",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -19944,7 +19944,7 @@
         "a_sprite": "868.png",
         "b": "alcremie",
         "condiciones": [
-          "trigger: spin"
+          "Metodo: spin"
         ]
       }
     ]
@@ -20025,7 +20025,7 @@
         "condiciones": [
           "Felicidad mínima: 160",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20141,7 +20141,7 @@
         "b": "copperajah",
         "condiciones": [
           "Nivel mínimo: 34",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20285,7 +20285,7 @@
         "b": "drakloak",
         "condiciones": [
           "Nivel mínimo: 50",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20314,7 +20314,7 @@
         "b": "dragapult",
         "condiciones": [
           "Nivel mínimo: 60",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20411,7 +20411,7 @@
         "a_sprite": "891.png",
         "b": "urshifu",
         "condiciones": [
-          "trigger: tower-of-darkness"
+          "Metodo: tower-of-darkness"
         ]
       }
     ]
@@ -20687,7 +20687,7 @@
         "b": "floragato",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20715,7 +20715,7 @@
         "b": "meowscarada",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20761,7 +20761,7 @@
         "b": "crocalor",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20789,7 +20789,7 @@
         "b": "skeledirge",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20835,7 +20835,7 @@
         "b": "quaxwell",
         "condiciones": [
           "Nivel mínimo: 16",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20863,7 +20863,7 @@
         "b": "quaquaval",
         "condiciones": [
           "Nivel mínimo: 36",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20909,7 +20909,7 @@
         "b": "oinkologne",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20954,7 +20954,7 @@
         "b": "spidops",
         "condiciones": [
           "Nivel mínimo: 15",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -20999,7 +20999,7 @@
         "b": "lokix",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21045,7 +21045,7 @@
         "b": "pawmo",
         "condiciones": [
           "Nivel mínimo: 18",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21073,7 +21073,7 @@
         "a_sprite": "922.png",
         "b": "pawmot",
         "condiciones": [
-          "trigger: other"
+          "Metodo: Subiendo un nivel después de haber dado 1000 pasos en el modo enviar Pokémon de manera ininterrumpida"
         ]
       }
     ]
@@ -21119,7 +21119,7 @@
         "b": "maushold",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: other"
+          "Metodo: other"
         ]
       }
     ]
@@ -21164,7 +21164,7 @@
         "b": "dachsbun",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21210,7 +21210,7 @@
         "b": "dolliv",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21239,7 +21239,7 @@
         "b": "arboliva",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21303,7 +21303,7 @@
         "b": "naclstack",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21331,7 +21331,7 @@
         "b": "garganacl",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21375,8 +21375,8 @@
         "a_sprite": "935.png",
         "b": "armarouge",
         "condiciones": [
-          "item: auspicious-armor",
-          "trigger: use-item"
+          "Objeto: Armadura auspiciosa",
+          "Metodo: Usando Objeto"
         ]
       },
       {
@@ -21385,8 +21385,8 @@
         "a_sprite": "935.png",
         "b": "ceruledge",
         "condiciones": [
-          "item: malicious-armor",
-          "trigger: use-item"
+          "Objeto: Armadura maldita",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -21449,8 +21449,8 @@
         "a_sprite": "938.png",
         "b": "bellibolt",
         "condiciones": [
-          "item: thunder-stone",
-          "trigger: use-item"
+          "Objeto: Piedra trueno",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -21496,7 +21496,7 @@
         "b": "kilowattrel",
         "condiciones": [
           "Nivel mínimo: 25",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21542,7 +21542,7 @@
         "b": "mabosstiff",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21588,7 +21588,7 @@
         "b": "grafaiai",
         "condiciones": [
           "Nivel mínimo: 28",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21634,7 +21634,7 @@
         "a_sprite": "946.png",
         "b": "brambleghast",
         "condiciones": [
-          "trigger: other"
+          "Metodo: Subiendo un nivel después de haber dado 1000 pasos en el modo enviar Pokémon de manera ininterrumpida"
         ]
       }
     ]
@@ -21681,7 +21681,7 @@
         "b": "toedscruel",
         "condiciones": [
           "Nivel mínimo: 30",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21743,8 +21743,8 @@
         "a_sprite": "951.png",
         "b": "scovillain",
         "condiciones": [
-          "item: fire-stone",
-          "trigger: use-item"
+          "Objeto: Piedra fuego",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -21789,7 +21789,7 @@
         "a_sprite": "953.png",
         "b": "rabsca",
         "condiciones": [
-          "trigger: other"
+          "Metodo: Subiendo un nivel después de haber dado 1000 pasos en el modo enviar Pokémon de manera ininterrumpida"
         ]
       }
     ]
@@ -21835,7 +21835,7 @@
         "b": "espathra",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21881,7 +21881,7 @@
         "b": "tinkatuff",
         "condiciones": [
           "Nivel mínimo: 24",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21910,7 +21910,7 @@
         "b": "tinkaton",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -21956,7 +21956,7 @@
         "b": "wugtrio",
         "condiciones": [
           "Nivel mínimo: 26",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22019,7 +22019,7 @@
         "b": "palafin",
         "condiciones": [
           "Nivel mínimo: 38",
-          "trigger: other"
+          "Metodo: other"
         ]
       }
     ]
@@ -22065,7 +22065,7 @@
         "b": "revavroom",
         "condiciones": [
           "Nivel mínimo: 40",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22147,7 +22147,7 @@
         "b": "glimmora",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22194,7 +22194,7 @@
         "condiciones": [
           "Nivel mínimo: 30",
           "Momento del día: night",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22256,8 +22256,8 @@
         "a_sprite": "974.png",
         "b": "cetitan",
         "condiciones": [
-          "item: ice-stone",
-          "trigger: use-item"
+          "Objeto: Piedra hielo",
+          "Metodo: Usando Objeto"
         ]
       }
     ]
@@ -22661,7 +22661,7 @@
         "b": "arctibax",
         "condiciones": [
           "Nivel mínimo: 35",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22690,7 +22690,7 @@
         "b": "baxcalibur",
         "condiciones": [
           "Nivel mínimo: 54",
-          "trigger: level-up"
+          "Metodo: Subir Nivel"
         ]
       }
     ]
@@ -22735,7 +22735,7 @@
         "a_sprite": "999.png",
         "b": "gholdengo",
         "condiciones": [
-          "trigger: other"
+          "Metodo: other"
         ]
       }
     ]
