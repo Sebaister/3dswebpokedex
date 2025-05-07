@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <div id="logoContainer" style="text-align: center; margin-top: 20px;">
+        <img src="sprites/pokelogo.png" alt="Pokémon Logo" style="max-width: 80%; height: auto;">
+    </div>
+
     <div id="resultado" style="display: none;">
         <div id="pokeContainer">
             <img id="pokeImg" src="sprites/MissingNo.png" alt="Pokemon">
@@ -17,18 +21,6 @@
             <!-- Información del Pokémon se mostrará aquí -->
         </div>
         <div id="typeDetails" class="type-detail"></div>
-    </div>
-
-    <div id="search-container">
-        <h1>Buscar Pokémon</h1>
-        <div class="nav-container">
-            <img src="sprites/izq.png" id="prevPokemon" class="nav-arrow" alt="Anterior" onclick="navegarPokemon(-1);">
-            <form onsubmit="buscar(); return false;">
-                <input type="text" id="pokeInput">
-                <input type="submit" value="Buscar">
-            </form>
-            <img src="sprites/der.png" id="nextPokemon" class="nav-arrow" alt="Siguiente" onclick="navegarPokemon(1);">
-        </div>
     </div>
 
     <div id="search-container">

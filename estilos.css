@@ -214,8 +214,8 @@ h2 {
 .immune { background-color: #999; }
 
 /* Estilos de búsqueda y resultados */
-#search-container {
-    padding: 5px 0;
+buscar#search-container {
+    padding: 2px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
@@ -224,19 +224,20 @@ h2 {
     background-color: #000;
     border-top: 1px solid #444;
     height: auto;
-    min-height: 60px;
+    min-height: 40px;
 }
 
 #search-container h1 {
-    margin: 0 0 5px 0;
-    font-size: 16px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1;
     color: #F00;
     text-shadow: 1px 1px 1px #000;
 }
 
 #resultado {
     padding: 6px;
-    margin-bottom: 50px; /* Ajustado según la nueva altura */
+    margin-bottom: 45px; /* Ajustado según la nueva altura */
     text-align: center;
 }
 
@@ -260,10 +261,10 @@ h2 {
 }
 
 .nav-arrow {
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
     cursor: pointer;
-    margin: 0 10px;
+    margin: 0 5px;
 }
 
 #search-container form {
@@ -306,11 +307,11 @@ h2 {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -318,11 +319,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -381,11 +382,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -393,11 +394,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -456,11 +457,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -468,11 +469,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -531,11 +532,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -543,11 +544,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -606,11 +607,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -618,11 +619,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -681,11 +682,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -693,11 +694,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -756,11 +757,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -768,11 +769,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -831,11 +832,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -843,11 +844,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -906,11 +907,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -918,11 +919,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -981,11 +982,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -993,11 +994,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1056,11 +1057,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1068,11 +1069,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1131,11 +1132,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1143,11 +1144,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1206,11 +1207,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1218,11 +1219,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1281,11 +1282,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1293,11 +1294,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1356,11 +1357,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1368,11 +1369,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1431,11 +1432,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1443,11 +1444,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1506,11 +1507,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1518,11 +1519,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1581,11 +1582,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1593,11 +1594,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1656,11 +1657,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1668,11 +1669,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1731,11 +1732,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1743,11 +1744,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1806,11 +1807,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1818,11 +1819,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1881,11 +1882,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1893,11 +1894,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -1956,11 +1957,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -1968,11 +1969,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2031,11 +2032,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2043,11 +2044,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2106,11 +2107,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2118,11 +2119,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2181,11 +2182,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2193,11 +2194,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2256,11 +2257,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2268,11 +2269,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2331,11 +2332,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2343,11 +2344,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2406,11 +2407,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2418,11 +2419,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2481,11 +2482,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2493,11 +2494,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2556,11 +2557,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2568,11 +2569,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2631,11 +2632,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2643,11 +2644,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2706,11 +2707,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2718,11 +2719,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2781,11 +2782,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2793,11 +2794,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2856,11 +2857,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2868,11 +2869,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -2931,11 +2932,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -2943,11 +2944,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3006,11 +3007,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3018,11 +3019,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3081,11 +3082,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3093,11 +3094,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3156,11 +3157,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3168,11 +3169,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3231,11 +3232,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3243,11 +3244,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3306,11 +3307,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3318,11 +3319,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3381,11 +3382,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3393,11 +3394,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3456,11 +3457,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3468,11 +3469,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3531,11 +3532,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3543,11 +3544,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3606,11 +3607,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3618,11 +3619,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3681,11 +3682,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3693,11 +3694,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3756,11 +3757,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3768,11 +3769,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3831,11 +3832,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3843,11 +3844,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3906,11 +3907,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3918,11 +3919,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -3981,11 +3982,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -3993,11 +3994,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -4056,11 +4057,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -4068,11 +4069,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -4131,11 +4132,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -4143,11 +4144,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -4206,11 +4207,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -4218,11 +4219,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
@@ -4281,11 +4282,11 @@ button {
 }
 
 input[type="text"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 80px;
-    height: 20px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 70px;
+    height: 18px;
+    margin: 0 3px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
@@ -4293,11 +4294,11 @@ input[type="text"] {
 }
 
 input[type="submit"] {
-    font-size: 12px;
-    padding: 4px;
-    width: 70px;
-    height: 28px;
-    margin: 0 5px;
+    font-size: 11px;
+    padding: 2px;
+    width: 60px;
+    height: 22px;
+    margin: 0 3px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;

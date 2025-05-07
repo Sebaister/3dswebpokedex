@@ -263,6 +263,12 @@ function buscar() {
             return;
         }
 
+        // Ocultar el logo cuando se encuentra un Pokémon
+        var logoContainer = document.getElementById("logoContainer");
+        if (logoContainer) {
+            logoContainer.style.display = "none";
+        }
+
         var resultadoElement = document.getElementById("resultado");
         var pokeImgElement = document.getElementById("pokeImg");
         var pokeNameElement = document.getElementById("pokeName");
