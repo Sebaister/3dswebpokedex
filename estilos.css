@@ -222,17 +222,18 @@ h2 {
     right: 0;
     background-color: #000;
     border-top: 1px solid #444;
-    height: 60px; /* Altura fija reducida */
+    height: 45px; /* Altura reducida aún más */
 }
 
 #search-container h1 {
-    margin: 2px 0;
-    font-size: 14px; /* Tamaño de fuente reducido */
+    margin: 0;
+    font-size: 12px; /* Tamaño de fuente reducido más */
+    line-height: 1;
 }
 
 #resultado {
     padding: 6px;
-    margin-bottom: 65px; /* Ajustar según la nueva altura del contenedor de búsqueda */
+    margin-bottom: 50px; /* Ajustado según la nueva altura */
     text-align: center;
 }
 
@@ -252,19 +253,19 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0; /* Reducir margen */
+    margin: 0;
 }
 
 .nav-arrow {
-    width: 20px; /* Tamaño reducido */
-    height: 20px; /* Tamaño reducido */
+    width: 16px; /* Tamaño reducido más */
+    height: 16px; /* Tamaño reducido más */
     cursor: pointer;
-    margin: 0 5px; /* Margen reducido */
+    margin: 0 3px; /* Margen reducido más */
 }
 
 #search-container form {
     display: inline-block;
-    margin: 0; /* Eliminar margen */
+    margin: 0;
 }
 
 #pokeImg {
@@ -301,11 +302,11 @@ h2 {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -350,11 +351,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -399,11 +400,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -448,11 +449,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -497,11 +498,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -546,11 +547,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -595,11 +596,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -644,11 +645,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -693,11 +694,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -742,11 +743,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -791,11 +792,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -840,11 +841,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -889,11 +890,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -938,11 +939,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -987,11 +988,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1036,11 +1037,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1085,11 +1086,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1134,11 +1135,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1183,11 +1184,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1232,11 +1233,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1281,11 +1282,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1330,11 +1331,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1379,11 +1380,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1428,11 +1429,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1477,11 +1478,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1526,11 +1527,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1575,11 +1576,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1624,11 +1625,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1673,11 +1674,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1722,11 +1723,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1771,11 +1772,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1820,11 +1821,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1869,11 +1870,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1918,11 +1919,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -1967,11 +1968,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2016,11 +2017,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2065,11 +2066,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2114,11 +2115,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2163,11 +2164,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2212,11 +2213,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2261,11 +2262,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2310,11 +2311,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2359,11 +2360,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2408,11 +2409,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2457,11 +2458,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2506,11 +2507,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2555,11 +2556,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2604,11 +2605,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2653,11 +2654,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2702,11 +2703,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2751,11 +2752,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2800,11 +2801,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2849,11 +2850,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
@@ -2898,11 +2899,11 @@ input, button {
 }
 
 input, button {
-    font-size: 11px; /* Tamaño de fuente reducido */
-    padding: 2px; /* Padding reducido */
-    width: 70px; /* Ancho reducido */
-    margin: 2px; /* Margen reducido */
-    height: 20px; /* Altura fija reducida */
+    font-size: 10px; /* Tamaño de fuente reducido más */
+    padding: 1px; /* Padding reducido más */
+    width: 60px; /* Ancho reducido más */
+    margin: 1px; /* Margen reducido más */
+    height: 16px; /* Altura reducida más */
 }
 
 .note {
