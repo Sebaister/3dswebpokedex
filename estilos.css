@@ -46,15 +46,72 @@ h2 {
     margin: 6px 0;
 }
 
+/* Estilos para los tipos */
 .type-btn, .type-tag {
-    padding: 4px 6px;
-    border-radius: 12px;
-    font-size: 11px;
-    font-weight: bold;
-    min-width: 70px;
-    text-align: center;
-    margin: 2px;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 3px;
+    border-radius: 15px;
     color: white;
+    text-align: center;
+    font-weight: bold;
+    min-width: 80px; /* Ancho mínimo para uniformidad */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Estilos para las secciones de interacciones */
+.type-section {
+    margin: 10px 0;
+    text-align: center; /* Centrar el contenido */
+}
+
+.type-section strong {
+    display: block;
+    margin-bottom: 5px;
+    text-align: center; /* Centrar los títulos */
+}
+
+.type-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centrar los elementos */
+}
+
+/* Estilos para el botón volver */
+.button-back {
+    text-align: center;
+    margin: 15px 0;
+}
+
+/* Estilos para el botón de tabla de tipos */
+.table-button {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Asegurar que todos los tipos tengan el mismo tamaño */
+#gen1-types .type-btn, 
+#gen2-types .type-btn, 
+#gen6-types .type-btn,
+.type-tag {
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    padding: 5px 10px;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+/* Centrar el encabezado de interacciones */
+.type-header {
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 0;
 }
 
 .type-btn {
