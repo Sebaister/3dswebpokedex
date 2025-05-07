@@ -8,8 +8,18 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
+    <!-- Elemento de audio para la música de fondo -->
+    <audio id="bgMusic" loop preload="auto">
+        <source src="resources/ost_1.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+    
     <div id="logoContainer" style="text-align: center; margin-top: 20px;">
         <img src="sprites/pokelogo.png" alt="Pokémon Logo" style="max-width: 80%; height: auto;">
+        <!-- Botón para controlar la música -->
+        <div style="margin-top: 5px;">
+            <button onclick="toggleMusic()" style="font-size: 10px; padding: 2px 5px; width: auto; height: auto;">Música ON/OFF</button>
+        </div>
     </div>
 
     <div id="resultado" style="display: none;">
@@ -41,6 +51,16 @@
 </body>
 </html>
 <script>
+        // Función para controlar la música
+        function toggleMusic() {
+            var audio = document.getElementById('bgMusic');
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+        
         // Asegurarnos de que los datos se carguen al inicio
         window.onload = cargarDatos;
         
