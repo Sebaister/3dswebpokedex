@@ -288,7 +288,7 @@ function buscar() {
             infoHtml += '<span class="type-btn ' + tipo + '">' + resolveElectricAndPsychicTypes(tipo) + '</span> ';
         }
 
-        infoHtml += "<br><a href='index.html'>Revisar tabla de tipos</a><br><br>";
+        infoHtml += "<br><a href='index.html' class='table-button' style='display: inline-block; background-color: #f0f0f0; padding: 5px 10px; border-radius: 5px; text-decoration: none; color: #333; margin: 5px 0;'>Revisar tabla de tipos</a><br><br>";
         infoHtml += "<b>Estadísticas:</b><br>";
         
         for (var stat in pokemon.stats) {
