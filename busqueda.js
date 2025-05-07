@@ -319,17 +319,6 @@ function buscar() {
     }
 }
 
-// Modificar el evento de carga
-if (window.addEventListener) {
-    window.addEventListener('load', cargarDatos, false);
-} else if (window.attachEvent) {
-    window.attachEvent('onload', cargarDatos);
-} else {
-    window.onload = cargarDatos;
-}
-
-
-// Función para navegar entre Pokémon
 function navegarPokemon(direccion) {
     try {
         // Obtener el Pokémon actual
@@ -364,3 +353,23 @@ function navegarPokemon(direccion) {
         alert("Error al navegar: " + e.message);
     }
 }
+
+// Código extraído del script en el HTML
+// Asegurarnos de que los datos se carguen al inicio
+window.onload = cargarDatos;
+
+// Añadir manejo de teclas para navegación
+document.addEventListener('keydown', function(event) {
+    // Tecla izquierda
+    if (event.keyCode === 37) {
+        document.getElementById('prevPokemon').focus();
+    }
+    // Tecla derecha
+    else if (event.keyCode === 39) {
+        document.getElementById('nextPokemon').focus();
+    }
+    // Tecla A (generalmente es Enter en navegadores)
+    else if (event.keyCode === 13 && document.activeElement.tagName === 'BUTTON') {
+        document.activeElement.click();
+    }
+});

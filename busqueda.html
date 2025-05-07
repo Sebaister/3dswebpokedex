@@ -8,18 +8,8 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <!-- Elemento de audio para la música de fondo -->
-    <audio id="bgMusic" loop preload="auto">
-        <source src="resources/ost_1.mp3" type="audio/mpeg">
-        Tu navegador no soporta el elemento de audio.
-    </audio>
-    
     <div id="logoContainer" style="text-align: center; margin-top: 20px;">
         <img src="sprites/pokelogo.png" alt="Pokémon Logo" style="max-width: 80%; height: auto;">
-        <!-- Botón para controlar la música -->
-        <div style="margin-top: 5px;">
-            <button onclick="toggleMusic()" style="font-size: 10px; padding: 2px 5px; width: auto; height: auto;">Música ON/OFF</button>
-        </div>
     </div>
 
     <div id="resultado" style="display: none;">
@@ -42,44 +32,13 @@
             <form onsubmit="buscar(); return false;">
                 <input type="text" id="pokeInput" tabindex="2">
                 <input type="submit" value="Buscar" tabindex="3">
-            </form>
+            </button>
             <button id="nextPokemon" class="nav-button" onclick="navegarPokemon(1);" tabindex="4">
                 <img src="sprites/der.png" class="nav-arrow" alt="Siguiente">
             </button>
         </div>
     </div>
-</body>
-</html>
-<script>
-        // Función para controlar la música
-        function toggleMusic() {
-            var audio = document.getElementById('bgMusic');
-            if (audio.paused) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
-        }
-        
-        // Asegurarnos de que los datos se carguen al inicio
-        window.onload = cargarDatos;
-        
-        // Añadir manejo de teclas para navegación
-        document.addEventListener('keydown', function(event) {
-            // Tecla izquierda
-            if (event.keyCode === 37) {
-                document.getElementById('prevPokemon').focus();
-            }
-            // Tecla derecha
-            else if (event.keyCode === 39) {
-                document.getElementById('nextPokemon').focus();
-            }
-            // Tecla A (generalmente es Enter en navegadores)
-            else if (event.keyCode === 13 && document.activeElement.tagName === 'BUTTON') {
-                document.activeElement.click();
-            }
-        });
-    </script>
+
     <script src="busqueda.js"></script>
 </body>
 </html>
