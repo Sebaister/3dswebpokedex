@@ -221,19 +221,15 @@ h2 {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #111;
+    background-color: #000;
     border-top: 1px solid #444;
     height: auto;
-    min-height: 40px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    min-height: 60px;
 }
 
 #search-container h1 {
-    margin: 0 0 3px 0;
-    font-size: 14px;
-    line-height: 1;
+    margin: 0 0 5px 0;
+    font-size: 16px;
     color: #F00;
     text-shadow: 1px 1px 1px #000;
 }
@@ -264,17 +260,14 @@ h2 {
 }
 
 .nav-arrow {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     cursor: pointer;
-    margin: 0 8px;
-    vertical-align: middle;
+    margin: 0 10px;
 }
 
 #search-container form {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
     margin: 0;
     vertical-align: middle;
 }
@@ -313,27 +306,29 @@ h2 {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -386,27 +381,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -459,27 +456,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -532,27 +531,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -605,27 +606,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -678,27 +681,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -751,27 +756,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -824,27 +831,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -897,27 +906,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -970,27 +981,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1043,27 +1056,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1116,27 +1131,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1189,27 +1206,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1262,27 +1281,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1335,27 +1356,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1408,27 +1431,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1481,27 +1506,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1554,27 +1581,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1627,27 +1656,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1700,27 +1731,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1773,27 +1806,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1846,27 +1881,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1919,27 +1956,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -1992,27 +2031,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2065,27 +2106,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2138,27 +2181,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2211,27 +2256,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2284,27 +2331,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2357,27 +2406,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2430,27 +2481,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2503,27 +2556,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2576,27 +2631,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2649,27 +2706,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2722,27 +2781,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2795,27 +2856,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2868,27 +2931,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -2941,27 +3006,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3014,27 +3081,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3087,27 +3156,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3160,27 +3231,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3233,27 +3306,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3306,27 +3381,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3379,27 +3456,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3452,27 +3531,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3525,27 +3606,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3598,27 +3681,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3671,27 +3756,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3744,27 +3831,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3817,27 +3906,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3890,27 +3981,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -3963,27 +4056,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -4036,27 +4131,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -4109,27 +4206,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {
@@ -4182,27 +4281,29 @@ button {
 }
 
 input[type="text"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 18px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 80px;
+    height: 20px;
+    margin: 0 5px;
     border: 1px solid #666;
     border-radius: 3px;
     text-align: center;
+    vertical-align: middle;
 }
 
 input[type="submit"] {
-    font-size: 11px;
-    padding: 2px 4px;
-    width: 60px;
-    height: 22px;
-    margin: 0 3px;
+    font-size: 12px;
+    padding: 4px;
+    width: 70px;
+    height: 28px;
+    margin: 0 5px;
     background-color: #E00;
     color: white;
     border: 1px solid #900;
     border-radius: 3px;
     cursor: pointer;
+    vertical-align: middle;
 }
 
 button {

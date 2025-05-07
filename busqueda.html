@@ -31,6 +31,18 @@
         </div>
     </div>
 
+    <div id="search-container">
+        <h1>Buscar Pokémon</h1>
+        <div class="nav-container">
+            <img src="sprites/izq.png" id="prevPokemon" class="nav-arrow" alt="Anterior" onclick="navegarPokemon(-1);">
+            <form onsubmit="buscar(); return false;">
+                <input type="text" id="pokeInput">
+                <input type="submit" value="Buscar">
+            </form>
+            <img src="sprites/der.png" id="nextPokemon" class="nav-arrow" alt="Siguiente" onclick="navegarPokemon(1);">
+        </div>
+    </div>
+
     <script>
         // Asegurarnos de que los datos se carguen al inicio
         window.onload = cargarDatos;
