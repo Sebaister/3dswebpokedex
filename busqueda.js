@@ -317,7 +317,14 @@ function buscar() {
         for (var i = 0; i < pokemon.tipos.length; i++) {
             var tipo = pokemon.tipos[i].toLowerCase();
             tipos.push(tipo);
-            infoHtml += '<span class="type-btn ' + tipo + '">' + formatearNombresTipos(tipo) + '</span> ';
+            
+            // Normalizar el tipo para la clase CSS
+            var tipoClase = tipo;
+            if (tipo === 'dragón') tipoClase = 'dragon';
+            if (tipo === 'eléctrico') tipoClase = 'electrico';
+            if (tipo === 'psíquico') tipoClase = 'psiquico';
+            
+            infoHtml += '<span class="type-btn ' + tipoClase + '">' + formatearNombresTipos(tipo) + '</span> ';
         }
 
         infoHtml += "<br><a href='index.html' class='table-button'>Revisar tabla de tipos</a><br>";
