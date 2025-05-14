@@ -116,6 +116,12 @@ function calcularInteracciones(tipos) {
     
     for (var i = 0; i < tipos.length; i++) {
         var tipo = tipos[i].toLowerCase();
+        
+        // Normalizar tipos con acento para la búsqueda en typeData
+        if (tipo === 'dragón') tipo = 'dragon';
+        if (tipo === 'eléctrico') tipo = 'electrico';
+        if (tipo === 'psíquico') tipo = 'psiquico';
+        
         if (!typeData[gen] || !typeData[gen][tipo]) continue;
         var data = typeData[gen][tipo];
         
