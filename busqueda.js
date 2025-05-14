@@ -218,16 +218,33 @@ function mostrarDetallesTipos(tipos) {
 }
 
 function formatearNombresTipos(type) {
-    if(type === "Electrico") {
+    // Primero normalizamos el tipo a minúsculas
+    var typeLower = type.toLowerCase();
+    
+    // Casos especiales para tipos sin acento
+    if(typeLower === "electrico") {
         return "Eléctrico";
     } 
-    if(type === "Psiquico") {
+    if(typeLower === "psiquico") {
         return "Psíquico";
     }
-    if(type === "Dragon") {
+    if(typeLower === "dragon") {
         return "Dragón";
     }
-    return type; // Simplificado el else
+    
+    // Casos especiales para tipos que ya vienen con acento
+    if(typeLower === "dragón") {
+        return "Dragón";
+    }
+    if(typeLower === "eléctrico") {
+        return "Eléctrico";
+    }
+    if(typeLower === "psíquico") {
+        return "Psíquico";
+    }
+    
+    // Para cualquier otro tipo, capitalizamos la primera letra
+    return type.charAt(0).toUpperCase() + type.slice(1);
 }
 
 function buscar() {
