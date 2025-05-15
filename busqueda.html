@@ -6,8 +6,30 @@
     <meta name="viewport" content="width=320">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="estilos.css">
+    <style>
+        .button-back-small {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+        
+        .button-small {
+            font-size: 0.8em;
+            padding: 5px 10px;
+            display: inline-block;
+            background-color: #ff5252;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
 </head>
 <body>
+    <!-- Botón de volver a la página principal (pequeño y en la esquina superior izquierda) -->
+    <div class="button-back-small">
+        <a href="index.html" class="button-small" tabindex="1">Volver</a>
+    </div>
+
     <div id="logoContainer" style="text-align: center; margin-top: 20px;">
         <img src="sprites/pokelogo.png" alt="Pokémon Logo" style="max-width: 80%; height: auto;">
     </div>
@@ -26,14 +48,14 @@
     <div id="search-container">
         <h1>Buscar Pokémon</h1>
         <div class="nav-container">
-            <button id="prevPokemon" class="nav-button" onclick="navegarPokemon(-1);" tabindex="1">
+            <button id="prevPokemon" class="nav-button" onclick="navegarPokemon(-1);" tabindex="2">
                 <img src="sprites/izq.png" class="nav-arrow" alt="Anterior">
             </button>
             <form onsubmit="buscar(); return false;">
-                <input type="text" id="pokeInput" tabindex="2">
-                <input type="submit" value="Buscar" tabindex="3">
+                <input type="text" id="pokeInput" tabindex="3">
+                <input type="submit" value="Buscar" tabindex="4">
             </form>
-            <button id="nextPokemon" class="nav-button" onclick="navegarPokemon(1);" tabindex="4">
+            <button id="nextPokemon" class="nav-button" onclick="navegarPokemon(1);" tabindex="5">
                 <img src="sprites/der.png" class="nav-arrow" alt="Siguiente">
             </button>
         </div>
