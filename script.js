@@ -16,7 +16,18 @@ function showType(typeId) {
 
 // Función para capitalizar (nueva)
 function capitalizeFirstLetter(string) {
-    return string.charAt(0).toUpperCase() + string.slice(1);
+    if (typeof string !== 'string') return string;
+    return formatearNombresTipos(string.charAt(0).toUpperCase() + string.slice(1));
+}
+
+function formatearNombresTipos(tipo) {
+    // Convertir tipos sin acento a versiones con acento para mostrar
+    if (typeof tipo === 'string') {
+        tipo = tipo.replace(/^dragon$/i, 'Dragón');
+        tipo = tipo.replace(/^electrico$/i, 'Eléctrico');
+        tipo = tipo.replace(/^psiquico$/i, 'Psíquico');
+    }
+    return tipo;
 }
 
 // Función para crear botones (adaptada)
@@ -30,7 +41,7 @@ function createTypeButtons(genId, types) {
         var type = types[i];
         var button = document.createElement('button');
         button.className = 'type-btn ' + type;
-        button.textContent = capitalizeFirstLetter(type);
+        button.textContent = formatearNombresTipos(capitalizeFirstLetter(type));
         button.onclick = function(t) {
             return function() {
                 showType(genId + '-' + t);
@@ -55,12 +66,12 @@ function createTypeDetails(genId, typeData) {
             detailDiv.className = 'type-detail';
             detailDiv.style.display = 'none';
             
-            var html = '<div class="type-header ' + type + '">' + capitalizeFirstLetter(type) + '</div>';
+            var html = '<div class="type-header ' + type + '">' + formatearNombresTipos(capitalizeFirstLetter(type)) + '</div>';
             
             if (data.weak) {
                 html += '<div class="type-section"><strong>Débil contra:</strong><div class="type-list">';
                 for (var j = 0; j < data.weak.length; j++) {
-                    html += '<div class="type-tag weak ' + data.weak[j] + '">' + capitalizeFirstLetter(data.weak[j]) + '</div>';
+                    html += '<div class="type-tag weak ' + data.weak[j] + '">' + formatearNombresTipos(capitalizeFirstLetter(data.weak[j])) + '</div>';
                 }
                 html += '</div></div>';
             }
@@ -68,7 +79,7 @@ function createTypeDetails(genId, typeData) {
             if (data.resist) {
                 html += '<div class="type-section"><strong>Resistente a:</strong><div class="type-list">';
                 for (var j = 0; j < data.resist.length; j++) {
-                    html += '<div class="type-tag resist ' + data.resist[j] + '">' + capitalizeFirstLetter(data.resist[j]) + '</div>';
+                    html += '<div class="type-tag resist ' + data.resist[j] + '">' + formatearNombresTipos(capitalizeFirstLetter(data.resist[j])) + '</div>';
                 }
                 html += '</div></div>';
             }
@@ -76,7 +87,7 @@ function createTypeDetails(genId, typeData) {
             if (data.strong) {
                 html += '<div class="type-section"><strong>Fuerte contra:</strong><div class="type-list">';
                 for (var j = 0; j < data.strong.length; j++) {
-                    html += '<div class="type-tag strong ' + data.strong[j] + '">' + capitalizeFirstLetter(data.strong[j]) + '</div>';
+                    html += '<div class="type-tag strong ' + data.strong[j] + '">' + formatearNombresTipos(capitalizeFirstLetter(data.strong[j])) + '</div>';
                 }
                 html += '</div></div>';
             }
@@ -84,7 +95,7 @@ function createTypeDetails(genId, typeData) {
             if (data.immune) {
                 html += '<div class="type-section"><strong>Inmune a:</strong><div class="type-list">';
                 for (var j = 0; j < data.immune.length; j++) {
-                    html += '<div class="type-tag immune ' + data.immune[j] + '">' + capitalizeFirstLetter(data.immune[j]) + '</div>';
+                    html += '<div class="type-tag immune ' + data.immune[j] + '">' + formatearNombresTipos(capitalizeFirstLetter(data.immune[j])) + '</div>';
                 }
                 html += '</div></div>';
             }
@@ -99,7 +110,7 @@ function createTypeDetails(genId, typeData) {
     }
 }
 
-// Función para cargar datos (optimizada para 3DS)
+// Función para cargar datos (optimizada)
 function loadData() {
     var xhr = new XMLHttpRequest();
     xhr.open('GET', 'types.json', true);
@@ -109,20 +120,27 @@ function loadData() {
                 try {
                     var data = JSON.parse(xhr.responseText);
                     
-                    // Generación 1
-                    var gen1Types = Object.keys(data.gen1 || {});
-                    createTypeButtons('gen1', gen1Types);
-                    createTypeDetails('gen1', data.gen1);
-                    
-                    // Generación 2-5
-                    var gen2Types = Object.keys(data.gen2 || {});
-                    createTypeButtons('gen2', gen2Types);
-                    createTypeDetails('gen2', data.gen2);
-                    
-                    // Generación 6+
-                    var gen6Types = Object.keys(data.gen6 || {});
-                    createTypeButtons('gen6', gen6Types);
-                    createTypeDetails('gen6', data.gen6);
+                    // Procesamiento por lotes para mejorar rendimiento
+                    setTimeout(function() {
+                        // Generación 1
+                        var gen1Types = Object.keys(data.gen1 || {});
+                        createTypeButtons('gen1', gen1Types);
+                        createTypeDetails('gen1', data.gen1);
+                        
+                        setTimeout(function() {
+                            // Generación 2-5
+                            var gen2Types = Object.keys(data.gen2 || {});
+                            createTypeButtons('gen2', gen2Types);
+                            createTypeDetails('gen2', data.gen2);
+                            
+                            setTimeout(function() {
+                                // Generación 6+
+                                var gen6Types = Object.keys(data.gen6 || {});
+                                createTypeButtons('gen6', gen6Types);
+                                createTypeDetails('gen6', data.gen6);
+                            }, 0);
+                        }, 0);
+                    }, 0);
                 } catch (e) {
                     console.error('Error al procesar los datos:', e);
                     mostrarError('Error al cargar los datos');

@@ -1,3 +1,4 @@
+/* Optimización de selectores */
 body {
     font-family: Arial, sans-serif;
     background-color: #000;
@@ -6,44 +7,65 @@ body {
     padding: 2px;
     font-size: 12px;
     -webkit-text-size-adjust: none;
+    text-size-adjust: none;
+}
+
+h1, h2 {
+    text-align: center;
+    margin: 6px 0;
 }
 
 h1 {
     color: #F00;
     font-size: 16px;
-    margin: 6px 0;
-    text-align: center;
 }
 
 h2 {
     color: #FC0;
     font-size: 14px;
-    margin: 6px 0;
-    text-align: center;
 }
 
-/* Estilos de menú y botones */
-.menu {
+/* Agrupación de estilos comunes */
+.menu, .type-menu, .button-back {
     text-align: center;
-    margin: 8px 0;
+    margin: 6px 0;
+}
+
+.button-back {
+    margin: 15px 0;
+}
+
+/* Optimización de botones */
+.button, .button-small, .table-button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 4px;
 }
 
 .button {
-    display: inline-block;
     padding: 6px 8px;
     background-color: #E00;
     color: white;
-    text-decoration: none;
-    border-radius: 4px;
     font-size: 12px;
     margin: 2px;
     min-width: 80px;
 }
 
-/* Estilos de tipos y contenido */
-.type-menu {
-    text-align: center;
-    margin: 6px 0;
+.button-small {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    background-color: #ff5252;
+    color: white;
+    border-radius: 5px;
+}
+
+.table-button {
+    background-color: #f0f0f0;
+    padding: 3px 6px;
+    text-decoration: none;
+    color: #333;
+    margin: 2px 0;
+    font-size: 10px;
 }
 
 /* Estilos para los tipos */
@@ -115,24 +137,6 @@ h2 {
     font-size: 11px;
 }
 
-/* Estilos para el botón volver */
-.button-back {
-    text-align: center;
-    margin: 15px 0;
-}
-
-/* Estilos para el botón de tabla de tipos */
-.table-button {
-    display: inline-block;
-    background-color: #f0f0f0;
-    padding: 3px 6px;
-    border-radius: 4px;
-    text-decoration: none;
-    color: #333;
-    margin: 2px 0;
-    font-size: 10px;
-}
-
 /* Asegurar que todos los tipos tengan el mismo tamaño */
 #gen1-types .type-btn, 
 #gen2-types .type-btn, 
@@ -193,7 +197,7 @@ h2 {
 #search-container {
     padding: 2px 0;
     text-align: center;
-    position: fixed !important; /* Forzar posición fija */
+    position: fixed !important;
     bottom: 0;
     left: 0;
     right: 0;
@@ -201,7 +205,7 @@ h2 {
     border-top: 1px solid #444;
     height: auto;
     min-height: 40px;
-    z-index: 1000; /* Asegurar que esté por encima de otros elementos */
+    z-index: 1000;
 }
 
 #search-container h1 {
@@ -214,7 +218,7 @@ h2 {
 
 #resultado {
     padding: 6px;
-    margin-bottom: 45px; /* Ajustado según la nueva altura */
+    margin-bottom: 45px;
     text-align: center;
 }
 
@@ -225,14 +229,6 @@ h2 {
     align-items: center;
 }
 
-.nav-buttons {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-}
-
-/* Estilos para las flechas de navegación */
 .nav-container {
     display: flex;
     align-items: center;
@@ -250,7 +246,6 @@ h2 {
     margin: 0 5px;
 }
 
-/* Estilos para los botones de navegación */
 .nav-button {
     background: none;
     border: none;
@@ -303,16 +298,6 @@ h2 {
     margin: 10px auto;
 }
 
-#tablaTiposBtn {
-    background-color: #444;
-    padding: 5px;
-    color: #FFF;
-    font-size: 10px;
-    text-decoration: none;
-    margin-top: 10px;
-    display: inline-block;
-}
-
 input[type="text"] {
     font-size: 11px;
     padding: 2px;
@@ -362,29 +347,19 @@ button {
     left: 10px;
 }
 
-.button-small {
-    font-size: 0.8em;
-    padding: 5px 10px;
-    display: inline-block;
-    background-color: #ff5252;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-}
-
 /* Estilos para autocompletar */
 .sugerencias-container {
     position: absolute;
     background-color: white;
     border: 1px solid #ccc;
     max-width: 200px;
-    z-index: 1001; /* Mayor que el z-index del search-container */
+    z-index: 1001;
     display: none;
-    bottom: 100%; /* Posicionar encima del campo de búsqueda */
+    bottom: 100%;
     left: 50%;
-    transform: translateX(-50%); /* Centrar horizontalmente */
-    margin-bottom: 5px; /* Espacio entre las sugerencias y el campo */
-    color: #000; /* Asegurar que el texto sea visible en fondo blanco */
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+    color: #000;
 }
 
 .sugerencia-item {

@@ -62,29 +62,18 @@
 
     <script src="script.js"></script>
     <script>
-        // Script para ocultar el logo cuando se selecciona una generación
-        window.addEventListener('hashchange', function() {
+        // Función optimizada para manejar la visibilidad del logo
+        function actualizarLogoVisibilidad() {
             var hash = window.location.hash;
             var defaultLogo = document.getElementById('defaultLogo');
-            
-            if (hash && hash !== '#') {
-                defaultLogo.style.display = 'none';
-            } else {
-                defaultLogo.style.display = 'block';
+            if (defaultLogo) {
+                defaultLogo.style.display = (hash && hash !== '#') ? 'none' : 'block';
             }
-        });
+        }
         
-        // Verificar el hash al cargar la página
-        window.addEventListener('load', function() {
-            var hash = window.location.hash;
-            var defaultLogo = document.getElementById('defaultLogo');
-            
-            if (hash && hash !== '#') {
-                defaultLogo.style.display = 'none';
-            } else {
-                defaultLogo.style.display = 'block';
-            }
-        });
+        // Eventos optimizados
+        window.addEventListener('hashchange', actualizarLogoVisibilidad);
+        window.addEventListener('load', actualizarLogoVisibilidad);
     </script>
 </body>
 </html>
