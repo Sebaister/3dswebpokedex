@@ -1,39 +1,45 @@
 var pokedata = [];
 var typeData = {};
 
+// Reemplazar esta función
 function cargarDatos() {
     try {
-        var xhr1 = new XMLHttpRequest();
-        xhr1.open("GET", "pokedata.json", false); // Síncrono para 3DS
-        xhr1.send(null);
-        
-        if (xhr1.status === 200) {
-            try {
-                // Usar eval en lugar de JSON.parse para mejor compatibilidad
-                pokedata = eval('(' + xhr1.responseText + ')');
-            } catch(e) {
-                alert("Error al procesar datos de Pokémon");
+        // Cargar datos solo si no están ya cargados
+        if (pokedata.length === 0) {
+            var xhr1 = new XMLHttpRequest();
+            xhr1.open("GET", "pokedata.json", false); // Síncrono para 3DS
+            xhr1.send(null);
+            
+            if (xhr1.status === 200) {
+                try {
+                    pokedata = eval('(' + xhr1.responseText + ')');
+                } catch(e) {
+                    alert("Error al procesar datos de Pokémon");
+                    return;
+                }
+            } else {
+                alert("Error al cargar pokedata.json");
                 return;
             }
-        } else {
-            alert("Error al cargar pokedata.json");
-            return;
         }
         
-        var xhr2 = new XMLHttpRequest();
-        xhr2.open("GET", "types.json", false);
-        xhr2.send(null);
-        
-        if (xhr2.status === 200) {
-            try {
-                typeData = eval('(' + xhr2.responseText + ')');
-            } catch(e) {
-                alert("Error al procesar datos de tipos");
+        // Cargar datos de tipos solo si no están ya cargados
+        if (Object.keys(typeData).length === 0) {
+            var xhr2 = new XMLHttpRequest();
+            xhr2.open("GET", "types.json", false);
+            xhr2.send(null);
+            
+            if (xhr2.status === 200) {
+                try {
+                    typeData = eval('(' + xhr2.responseText + ')');
+                } catch(e) {
+                    alert("Error al procesar datos de tipos");
+                    return;
+                }
+            } else {
+                alert("Error al cargar types.json");
                 return;
             }
-        } else {
-            alert("Error al cargar types.json");
-            return;
         }
     } catch(e) {
         alert("Error de conexión");
@@ -181,8 +187,8 @@ function mostrarDetallesTipos(tipos) {
         return;
     }
     
-    var html = [];
-    html.push('<div class="type-header">Interacciones de Tipo</div>');
+    // Optimización: Construir HTML de una sola vez
+    var html = ['<div class="type-header">Interacciones de Tipo</div>'];
     
     if (Object.keys(interacciones.weak).length > 0) {
         html.push('<div class="type-section"><strong>Débil contra:</strong><div class="type-list">');
@@ -273,14 +279,39 @@ function buscar() {
         }
         searchValue = searchValue.toLowerCase().replace(/^\s+|\s+$/g, '');
 
+        // Optimización: Búsqueda más eficiente
         var pokemon = null;
-        for (var i = 0; i < pokedata.length; i++) {
-            if (!isNaN(searchValue) && pokedata[i].id === parseInt(searchValue, 10)) {
-                pokemon = pokedata[i];
-                break;
-            } else if (pokedata[i].nombre.toLowerCase() === searchValue) {
-                pokemon = pokedata[i];
-                break;
+        
+        // Primero intentar buscar por ID (más rápido)
+        if (!isNaN(searchValue)) {
+            var id = parseInt(searchValue, 10);
+            // Búsqueda binaria para IDs (asumiendo que están ordenados)
+            var inicio = 0;
+            var fin = pokedata.length - 1;
+            
+            while (inicio <= fin) {
+                var medio = Math.floor((inicio + fin) / 2);
+                if (pokedata[medio].id === id) {
+                    pokemon = pokedata[medio];
+                    break;
+                } else if (pokedata[medio].id < id) {
+                    inicio = medio + 1;
+                } else {
+                    fin = medio - 1;
+                }
+            }
+        }
+        
+        // Si no se encontró por ID, buscar por nombre
+        if (!pokemon) {
+            for (var i = 0; i < pokedata.length; i++) {
+                if (pokedata[i].nombre.toLowerCase() === searchValue) {
+                    pokemon = pokedata[i];
+                    break;
+                } else if (pokedata[i].nombre.toLowerCase().indexOf(searchValue) === 0) {
+                    pokemon = pokedata[i];
+                    break;
+                }
             }
         }
 
@@ -387,22 +418,185 @@ function navegarPokemon(direccion) {
     }
 }
 
-// Código extraído del script en el HTML
-// Asegurarnos de que los datos se carguen al inicio
-window.onload = cargarDatos;
-
-// Añadir manejo de teclas para navegación
-document.addEventListener('keydown', function(event) {
+// Función para manejar las teclas (separada para mejor organización)
+function manejarTeclas(event) {
+    var sugerencias = document.getElementById("sugerencias");
+    var items = sugerencias ? sugerencias.getElementsByClassName("sugerencia-item") : [];
+    var selectedIndex = -1;
+    
+    // Buscar elemento seleccionado actualmente
+    for (var i = 0; i < items.length; i++) {
+        if (items[i].classList.contains("selected")) {
+            selectedIndex = i;
+            break;
+        }
+    }
+    
+    // Obtener elementos navegables
+    var navegables = [
+        document.querySelector('.button-small'), // Botón volver
+        document.getElementById('prevPokemon'), // Botón anterior
+        document.getElementById('pokeInput'),   // Campo de búsqueda
+        document.querySelector('input[type="submit"]'), // Botón buscar
+        document.getElementById('nextPokemon')  // Botón siguiente
+    ];
+    
+    var elementoActivo = document.activeElement;
+    var indiceActivo = -1;
+    
+    // Encontrar el índice del elemento activo
+    for (var i = 0; i < navegables.length; i++) {
+        if (navegables[i] === elementoActivo) {
+            indiceActivo = i;
+            break;
+        }
+    }
+    
     // Tecla izquierda
     if (event.keyCode === 37) {
-        document.getElementById('prevPokemon').focus();
+        if (sugerencias && sugerencias.style.display !== "none" && selectedIndex >= 0) {
+            // Si hay sugerencias visibles, ignorar navegación lateral
+            return;
+        }
+        
+        if (indiceActivo > 0) {
+            navegables[indiceActivo - 1].focus();
+            event.preventDefault();
+        }
     }
     // Tecla derecha
     else if (event.keyCode === 39) {
-        document.getElementById('nextPokemon').focus();
+        if (sugerencias && sugerencias.style.display !== "none" && selectedIndex >= 0) {
+            // Si hay sugerencias visibles, ignorar navegación lateral
+            return;
+        }
+        
+        if (indiceActivo < navegables.length - 1) {
+            navegables[indiceActivo + 1].focus();
+            event.preventDefault();
+        }
     }
-    // Tecla A (generalmente es Enter en navegadores)
-    else if (event.keyCode === 13 && document.activeElement.tagName === 'BUTTON') {
-        document.activeElement.click();
+    // Tecla abajo (para navegar por sugerencias)
+    else if (event.keyCode === 40) {
+        if (sugerencias && sugerencias.style.display !== "none") {
+            event.preventDefault();
+            if (selectedIndex < items.length - 1) {
+                if (selectedIndex >= 0) {
+                    items[selectedIndex].classList.remove("selected");
+                }
+                items[selectedIndex + 1].classList.add("selected");
+            } else if (selectedIndex === -1 && items.length > 0) {
+                // Si no hay ningún elemento seleccionado, seleccionar el primero
+                items[0].classList.add("selected");
+            }
+        }
     }
-});
+    // Tecla arriba (para navegar por sugerencias)
+    else if (event.keyCode === 38) {
+        if (sugerencias && sugerencias.style.display !== "none") {
+            event.preventDefault();
+            if (selectedIndex > 0) {
+                items[selectedIndex].classList.remove("selected");
+                items[selectedIndex - 1].classList.add("selected");
+            }
+        }
+    }
+    // Tecla Enter
+    else if (event.keyCode === 13) {
+        if (sugerencias && sugerencias.style.display !== "none" && selectedIndex >= 0) {
+            // Seleccionar sugerencia
+            var input = document.getElementById("pokeInput");
+            input.value = items[selectedIndex].getAttribute('data-nombre') || items[selectedIndex].textContent;
+            sugerencias.style.display = "none";
+            buscar();
+            event.preventDefault();
+        } else if (document.activeElement.tagName === 'BUTTON' || 
+                  (document.activeElement.tagName === 'INPUT' && document.activeElement.type === 'submit')) {
+            document.activeElement.click();
+            event.preventDefault();
+        } else if (document.activeElement.tagName === 'INPUT' && document.activeElement.type === 'text') {
+            // Si el foco está en el campo de texto, realizar búsqueda
+            buscar();
+            event.preventDefault();
+        }
+    }
+}
+
+// Modificar la función autocompletar para usar data-nombre
+function autocompletar() {
+    var input = document.getElementById("pokeInput");
+    var searchValue = input.value.toLowerCase();
+    
+    // Limpiar sugerencias anteriores
+    var sugerenciasContainer = document.getElementById("sugerencias");
+    if (!sugerenciasContainer) {
+        sugerenciasContainer = document.createElement("div");
+        sugerenciasContainer.id = "sugerencias";
+        sugerenciasContainer.className = "sugerencias-container";
+        var formElement = input.parentNode;
+        formElement.insertBefore(sugerenciasContainer, formElement.firstChild);
+    } else {
+        sugerenciasContainer.innerHTML = "";
+    }
+    
+    // Si el campo está vacío, no mostrar sugerencias
+    if (!searchValue) {
+        sugerenciasContainer.style.display = "none";
+        return;
+    }
+    
+    // Buscar coincidencias
+    var coincidencias = [];
+    for (var i = 0; i < pokedata.length && coincidencias.length < 3; i++) {
+        if (pokedata[i].nombre.toLowerCase().indexOf(searchValue) === 0) {
+            coincidencias.push(pokedata[i]);
+        }
+    }
+    
+    // Mostrar sugerencias
+    if (coincidencias.length > 0) {
+        var html = '';
+        for (var i = 0; i < coincidencias.length; i++) {
+            html += '<div class="sugerencia-item" data-nombre="' + coincidencias[i].nombre + '">' + 
+                    coincidencias[i].nombre + '</div>';
+        }
+        sugerenciasContainer.innerHTML = html;
+        sugerenciasContainer.style.display = "block";
+        
+        // Agregar eventos a los elementos creados
+        var items = sugerenciasContainer.getElementsByClassName("sugerencia-item");
+        for (var i = 0; i < items.length; i++) {
+            items[i].onclick = function() {
+                input.value = this.getAttribute('data-nombre');
+                sugerenciasContainer.style.display = "none";
+                buscar();
+            };
+        }
+    } else {
+        sugerenciasContainer.style.display = "none";
+    }
+}
+
+// Código para cargar datos al inicio
+window.onload = function() {
+    cargarDatos();
+    
+    // Agregar evento para autocompletar
+    var input = document.getElementById("pokeInput");
+    if (input) {
+        input.addEventListener("input", autocompletar);
+        
+        // Ocultar sugerencias al perder el foco
+        input.addEventListener("blur", function() {
+            setTimeout(function() {
+                var sugerencias = document.getElementById("sugerencias");
+                if (sugerencias) {
+                    sugerencias.style.display = "none";
+                }
+            }, 200);
+        });
+    }
+    
+    // Agregar manejo de eventos de teclado
+    document.addEventListener('keydown', manejarTeclas);
+};

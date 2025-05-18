@@ -354,3 +354,48 @@ button {
     text-align: left;
     color: #CCC;
 }
+
+/* Estilos específicos para busqueda.html */
+.button-back-small {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.button-small {
+    font-size: 0.8em;
+    padding: 5px 10px;
+    display: inline-block;
+    background-color: #ff5252;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Estilos para autocompletar */
+.sugerencias-container {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    max-width: 200px;
+    z-index: 1001; /* Mayor que el z-index del search-container */
+    display: none;
+    bottom: 100%; /* Posicionar encima del campo de búsqueda */
+    left: 50%;
+    transform: translateX(-50%); /* Centrar horizontalmente */
+    margin-bottom: 5px; /* Espacio entre las sugerencias y el campo */
+    color: #000; /* Asegurar que el texto sea visible en fondo blanco */
+}
+
+.sugerencia-item {
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.sugerencia-item:hover {
+    background-color: #f0f0f0;
+}
+
+.sugerencia-item.selected {
+    background-color: #e0e0e0;
+}
